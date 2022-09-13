@@ -1,0 +1,21 @@
+{
+  "name": "com.unity.burst",
+  "displayName": "Burst",
+  "version": "1.7.3",
+  "unity": "2019.4",
+  "description": "Burst is a compiler that translates from IL/.NET bytecode to highly optimized native code using LLVM.",
+  "dependencies": {
+    "com.unity.mathematics": "1.2.1"
+  },
+  "repository": {
+    "url": "https://github.cds.internal.unity3d.com/unity/burst.git",
+    "type": "git",
+    "revision": "22fd3afd45fa12529bd8bd647d2a3a3af2e871bc"
+  },
+  "_upm": {
+    "changelog": "### Fixed\n- Fix some ARM branch instructions not being processed as such.\n- Whitespace changes in ILPP'd assemblies would not be detected.\n\n### Added\n\n### Removed\n\n### Changed\n- Used explicit namespace for UnityEditor.PackageManager.Events to avoid conflicts.\n\n### Known Issues"
+  },
+  "upmCi": {
+    "footprint": "b4259716a88a7e1eaeb9bf98780b3be0c370061e"
+  }
+}

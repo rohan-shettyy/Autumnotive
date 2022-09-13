@@ -1,0 +1,405 @@
+Using pre-set license
+Built from '2022.1/staging' branch; Version is '2022.1.15f1 (42973686a05c) revision 4364086'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'en' Physical Memory: 16335 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.1.15f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+E:/VR Development/Autumnotive
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+60712
+Successfully changed project path to: E:/VR Development/Autumnotive
+E:/VR Development/Autumnotive
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 98.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.1.15f1 (42973686a05c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/VR Development/Autumnotive/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2182)
+    Vendor:   NVIDIA
+    VRAM:     5991 MB
+    Driver:   31.0.15.1659
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56604
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005616 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 95.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.630 seconds
+Domain Reload Profiling:
+	ReloadAssembly (630ms)
+		BeginReloadAssembly (78ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (450ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (98ms)
+				TypeCache.Initialize (98ms)
+					TypeCache.ScanAssembly (97ms)
+				ResolveRequiredComponents (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (274ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (96ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (125ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.010343 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\VR Development\Autumnotive\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\VR Development\Autumnotive\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 96.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.242 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1243ms)
+		BeginReloadAssembly (101ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (1028ms)
+			LoadAssemblies (92ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (244ms)
+				TypeCache.Initialize (234ms)
+					TypeCache.ScanAssembly (230ms)
+				ResolveRequiredComponents (10ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (572ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (96ms)
+				BeforeProcessingInitializeOnLoad (157ms)
+				ProcessInitializeOnLoadAttributes (231ms)
+				ProcessInitializeOnLoadMethodAttributes (73ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5072 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (350.4 KB). Loaded Objects now: 5530.
+Memory consumption went from 0.79 GB to 0.79 GB.
+Total: 3.868500 ms (FindLiveObjects: 0.439400 ms CreateObjectMapping: 0.116100 ms MarkObjects: 3.152000 ms  DeleteObjects: 0.160000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 30869.706274 seconds.
+  path: Assets/Buildings Pack - Jan 2019/FBX/BrickRed.mat
+  artifactKey: Guid(819d4f21be35acb4b99e5cea9a0e9977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buildings Pack - Jan 2019/FBX/BrickRed.mat using Guid(819d4f21be35acb4b99e5cea9a0e9977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f03fc11bc4eaa2826f4c2387ebb0e664') in 0.324328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.148789 seconds.
+  path: Assets/Stylized Brick Materials/Materials/M_Brick01_Variant01.mat
+  artifactKey: Guid(339957fc03bb06d498d1ba479112ba48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Brick Materials/Materials/M_Brick01_Variant01.mat using Guid(339957fc03bb06d498d1ba479112ba48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0449241cab9eec5523cea7071bc3561e') in 0.087058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Stylized Brick Materials/Materials/M_Brick05_V1.mat
+  artifactKey: Guid(e87ae93f4b161ad4d823b9960e55f44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Brick Materials/Materials/M_Brick05_V1.mat using Guid(e87ae93f4b161ad4d823b9960e55f44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f1af72761752474c4cbcfdc0176ac69') in 0.034618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Stylized Brick Materials/Materials/M_Stone02_Variant03.mat
+  artifactKey: Guid(2c1dda915acb33641b57cf966bff604b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Brick Materials/Materials/M_Stone02_Variant03.mat using Guid(2c1dda915acb33641b57cf966bff604b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b136bd6cd000de330ce38662b593dd55') in 0.027947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Stylized Brick Materials/Materials/M_Brick03_Variant03.mat
+  artifactKey: Guid(bf48e5838a3489f4da8803ab6cd83f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Brick Materials/Materials/M_Brick03_Variant03.mat using Guid(bf48e5838a3489f4da8803ab6cd83f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d6c17569ccbca6bc485613ad3f6a7ce') in 0.026111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Stylized Brick Materials/Materials/M_Brick04_Variant01.mat
+  artifactKey: Guid(1aecaff51b2ae244c9826b86c7f9d6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Brick Materials/Materials/M_Brick04_Variant01.mat using Guid(1aecaff51b2ae244c9826b86c7f9d6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd280420f9b583bde409891acf8d7e456') in 0.029103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Stylized Brick Materials/Materials/M_Brick03_Variant07.mat
+  artifactKey: Guid(7049939c684dd914b9691852e2a02ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Brick Materials/Materials/M_Brick03_Variant07.mat using Guid(7049939c684dd914b9691852e2a02ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '479007196d7e8189b46440c2605ffd0a') in 0.025578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Stylized Brick Materials/Materials/M_Brick01_Variant03.mat
+  artifactKey: Guid(6600ba38b93d2de479d99d54f753b729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Brick Materials/Materials/M_Brick01_Variant03.mat using Guid(6600ba38b93d2de479d99d54f753b729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '795e6b4236c11047bbdcc3a5c2e3888e') in 0.052970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Stylized Brick Materials/Materials/M_Stone02_Variant02.mat
+  artifactKey: Guid(0558ea61733f64941a37cd788cdb9a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Brick Materials/Materials/M_Stone02_Variant02.mat using Guid(0558ea61733f64941a37cd788cdb9a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70a6fac2ad41325df5e4624b9849b158') in 0.025522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Stylized Brick Materials/Materials/M_Brick03.mat
+  artifactKey: Guid(e190f812556bdca47b901092593629bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Brick Materials/Materials/M_Brick03.mat using Guid(e190f812556bdca47b901092593629bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8748ea2086cdc3f051489267c0c5a47') in 0.062073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Stylized Brick Materials/Materials/M_Brick04_Variant03.mat
+  artifactKey: Guid(42d337526ee1691458e8b1a5b9a315e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Brick Materials/Materials/M_Brick04_Variant03.mat using Guid(42d337526ee1691458e8b1a5b9a315e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c9bc5dffc116403f9f03dfbe695352a') in 0.030339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Stylized Brick Materials/Materials/M_Brick03_Variant04.mat
+  artifactKey: Guid(aec53cb1e4ef93a4e80eb2b7b420217c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Brick Materials/Materials/M_Brick03_Variant04.mat using Guid(aec53cb1e4ef93a4e80eb2b7b420217c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b8a32a770e2a5384d8c4818bf8618d7') in 0.044484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Stylized Brick Materials/Materials/M_Stone01.mat
+  artifactKey: Guid(cc63e13cb45953849a973fc8923032c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Brick Materials/Materials/M_Stone01.mat using Guid(cc63e13cb45953849a973fc8923032c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85afcb39f3ca3ce445844b13bcbf8e7e') in 0.029106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Stylized Brick Materials/Materials/M_Brick04.mat
+  artifactKey: Guid(dbc5829fc346fa64f84a8c2e7dd4aaf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Brick Materials/Materials/M_Brick04.mat using Guid(dbc5829fc346fa64f84a8c2e7dd4aaf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b413bd2df6613938fe9fab2f45a810f4') in 0.027018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Stylized Brick Materials/Materials/M_Brick03_Variant01.mat
+  artifactKey: Guid(c6f0efbea3f82864486fc78ddd1e58c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Brick Materials/Materials/M_Brick03_Variant01.mat using Guid(c6f0efbea3f82864486fc78ddd1e58c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fbe285bad83a64133fadb2071b0703a') in 0.027992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Stylized Brick Materials/Materials/M_Stone02_Variant01.mat
+  artifactKey: Guid(c4151470e2c373e4088e04228aa54211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Brick Materials/Materials/M_Stone02_Variant01.mat using Guid(c4151470e2c373e4088e04228aa54211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1902933fd894416c842d91742e08a2ab') in 0.028877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Stylized Brick Materials/Materials/M_Brick04_Variant02.mat
+  artifactKey: Guid(9667b2f081553994bb12948f00bb2402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Brick Materials/Materials/M_Brick04_Variant02.mat using Guid(9667b2f081553994bb12948f00bb2402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94b4cc87cca33e53ccc5d8c61ccf1548') in 0.023686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 125.585410 seconds.
+  path: Assets/Buildings Pack - Jan 2019/OBJ/DarkRed.mat
+  artifactKey: Guid(9ee9f30540bcf2242993aa6b77abe024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buildings Pack - Jan 2019/OBJ/DarkRed.mat using Guid(9ee9f30540bcf2242993aa6b77abe024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19331e83a8507e70809cd17c21728ce7') in 0.029961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7076.065565 seconds.
+  path: Assets/Stylized Brick Materials/Materials/M_Brick01_Variant01.mat
+  artifactKey: Guid(339957fc03bb06d498d1ba479112ba48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Brick Materials/Materials/M_Brick01_Variant01.mat using Guid(339957fc03bb06d498d1ba479112ba48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a11f2b4a944a712f867804d4553b23c') in 0.110474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Stylized Brick Materials/Materials/M_Brick05_V1.mat
+  artifactKey: Guid(e87ae93f4b161ad4d823b9960e55f44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Brick Materials/Materials/M_Brick05_V1.mat using Guid(e87ae93f4b161ad4d823b9960e55f44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aa38681a52403b36e9cb91bfb3f8290') in 0.034792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Stylized Brick Materials/Materials/M_Brick03_Variant03.mat
+  artifactKey: Guid(bf48e5838a3489f4da8803ab6cd83f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Brick Materials/Materials/M_Brick03_Variant03.mat using Guid(bf48e5838a3489f4da8803ab6cd83f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54da3952e83abda3a47aa8aaa79a161e') in 0.030995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Stylized Brick Materials/Materials/M_Brick03_Variant07.mat
+  artifactKey: Guid(7049939c684dd914b9691852e2a02ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Brick Materials/Materials/M_Brick03_Variant07.mat using Guid(7049939c684dd914b9691852e2a02ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b034285f64f7f0c895459a1a23d2704b') in 0.028314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Stylized Brick Materials/Materials/M_Brick01_Variant03.mat
+  artifactKey: Guid(6600ba38b93d2de479d99d54f753b729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Brick Materials/Materials/M_Brick01_Variant03.mat using Guid(6600ba38b93d2de479d99d54f753b729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6781c727912941cc8b9275be6780e49f') in 0.030397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Stylized Brick Materials/Materials/M_Stone02_Variant02.mat
+  artifactKey: Guid(0558ea61733f64941a37cd788cdb9a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Brick Materials/Materials/M_Stone02_Variant02.mat using Guid(0558ea61733f64941a37cd788cdb9a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1301311cd9b065e71acd01ee60843d69') in 0.027980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Stylized Brick Materials/Materials/M_Brick03_Variant06.mat
+  artifactKey: Guid(80fb7b98fd841464da8bf206b36b8103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Brick Materials/Materials/M_Brick03_Variant06.mat using Guid(80fb7b98fd841464da8bf206b36b8103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc751d0053705b09767d709703dc9ed1') in 0.027797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Stylized Brick Materials/Materials/M_Brick03.mat
+  artifactKey: Guid(e190f812556bdca47b901092593629bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Brick Materials/Materials/M_Brick03.mat using Guid(e190f812556bdca47b901092593629bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7a53cf625c66e92541b4ac0fc8a4b00') in 0.030434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Stylized Brick Materials/Materials/M_Brick04_Variant03.mat
+  artifactKey: Guid(42d337526ee1691458e8b1a5b9a315e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Brick Materials/Materials/M_Brick04_Variant03.mat using Guid(42d337526ee1691458e8b1a5b9a315e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02eceaafb7e9b18ca50cd3ee0ff4e681') in 0.040445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Stylized Brick Materials/Materials/M_Stone02_Variant04.mat
+  artifactKey: Guid(05ccc52f27c3f9944a5da9cb09d31343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Brick Materials/Materials/M_Stone02_Variant04.mat using Guid(05ccc52f27c3f9944a5da9cb09d31343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e0c8179f6653aafb11d0d915974dd46') in 0.033925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Stylized Brick Materials/Materials/M_Brick03_Variant04.mat
+  artifactKey: Guid(aec53cb1e4ef93a4e80eb2b7b420217c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Brick Materials/Materials/M_Brick03_Variant04.mat using Guid(aec53cb1e4ef93a4e80eb2b7b420217c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8064396a3f17b6c5dc8c61a54b9e57c') in 0.044128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Stylized Brick Materials/Materials/M_Brick03_Variant02.mat
+  artifactKey: Guid(52c2c3fe231a6e745a53512ce32b14ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Brick Materials/Materials/M_Brick03_Variant02.mat using Guid(52c2c3fe231a6e745a53512ce32b14ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '502e374b6ac79afa18ef35d4298faf05') in 0.027924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Stylized Brick Materials/Materials/M_Brick01_Variant02.mat
+  artifactKey: Guid(c52059b96ac7ddc438a039673d11f56d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Brick Materials/Materials/M_Brick01_Variant02.mat using Guid(c52059b96ac7ddc438a039673d11f56d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd2257ab97fdebb323d9235dc8988ed0') in 0.025424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Stylized Brick Materials/Materials/M_Brick05.mat
+  artifactKey: Guid(5a3ac0d286a1b97438bdf12f82c4da87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Brick Materials/Materials/M_Brick05.mat using Guid(5a3ac0d286a1b97438bdf12f82c4da87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05f9577cb8b567ce4c968f5a2229de2c') in 0.029853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Stylized Brick Materials/Materials/M_Brick01_Variant04.mat
+  artifactKey: Guid(6f6284b83c54d0246b535da6842d568c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Brick Materials/Materials/M_Brick01_Variant04.mat using Guid(6f6284b83c54d0246b535da6842d568c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab89c4832708eb2f285715779b182f90') in 0.031184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Stylized Brick Materials/Materials/M_Brick04.mat
+  artifactKey: Guid(dbc5829fc346fa64f84a8c2e7dd4aaf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Brick Materials/Materials/M_Brick04.mat using Guid(dbc5829fc346fa64f84a8c2e7dd4aaf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1be07aeea5de4c504a274ec6160ff87d') in 0.024767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Stylized Brick Materials/Materials/M_Brick03_Variant01.mat
+  artifactKey: Guid(c6f0efbea3f82864486fc78ddd1e58c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Brick Materials/Materials/M_Brick03_Variant01.mat using Guid(c6f0efbea3f82864486fc78ddd1e58c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8610b29eb8349b7801caf03f0e440d8a') in 0.023594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Stylized Brick Materials/Materials/M_Brick03_Variant05.mat
+  artifactKey: Guid(dfdd3d48ec665b444b671788937386ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Brick Materials/Materials/M_Brick03_Variant05.mat using Guid(dfdd3d48ec665b444b671788937386ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3bd72c45afa2c7d99195c0073282947') in 0.023941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Stylized Brick Materials/Materials/M_Stone02_Variant01.mat
+  artifactKey: Guid(c4151470e2c373e4088e04228aa54211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Brick Materials/Materials/M_Stone02_Variant01.mat using Guid(c4151470e2c373e4088e04228aa54211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1097cac81d84326dbbacdfc07adac97d') in 0.028673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Stylized Brick Materials/Materials/M_Stone01.mat
+  artifactKey: Guid(cc63e13cb45953849a973fc8923032c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Brick Materials/Materials/M_Stone01.mat using Guid(cc63e13cb45953849a973fc8923032c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35b69169598894699e689282f65806c0') in 0.025804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Stylized Brick Materials/Materials/M_Brick04_Variant02.mat
+  artifactKey: Guid(9667b2f081553994bb12948f00bb2402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Brick Materials/Materials/M_Brick04_Variant02.mat using Guid(9667b2f081553994bb12948f00bb2402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bad18c73ef1b197a2fbbf7fdd88ec32') in 0.025020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Stylized Brick Materials/Materials/M_Stone02_Variant05.mat
+  artifactKey: Guid(5d45d5b3a7d06434691080051f06e67f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Brick Materials/Materials/M_Stone02_Variant05.mat using Guid(5d45d5b3a7d06434691080051f06e67f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c45e272eaf5478d3726c15bb4810ad1') in 0.026842 seconds 
