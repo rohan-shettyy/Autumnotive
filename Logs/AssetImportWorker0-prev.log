@@ -15,7 +15,7 @@ E:/VR Development/Autumnotive
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60712
+60524
 Successfully changed project path to: E:/VR Development/Autumnotive
 E:/VR Development/Autumnotive
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ E:/VR Development/Autumnotive
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 136.59 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 113.98 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.1.15f1 (42973686a05c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/Resources/UnitySubsystems
@@ -63,95 +63,95 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56032
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56812
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.013425 seconds.
+Registered in 0.006660 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 128.17 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 105.53 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.056 seconds
+- Completed reload, in  0.674 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1057ms)
-		BeginReloadAssembly (113ms)
+	ReloadAssembly (675ms)
+		BeginReloadAssembly (68ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (664ms)
-			LoadAssemblies (110ms)
+		EndReloadAssembly (491ms)
+			LoadAssemblies (66ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (231ms)
-				TypeCache.Initialize (231ms)
-					TypeCache.ScanAssembly (229ms)
-				ResolveRequiredComponents (1ms)
+			SetupTypeCache (115ms)
+				TypeCache.Initialize (114ms)
+					TypeCache.ScanAssembly (113ms)
+				ResolveRequiredComponents (0ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (328ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (283ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (10ms)
-				RefreshPlugins (128ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (130ms)
-				ProcessInitializeOnLoadMethodAttributes (46ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (106ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (124ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.013694 seconds.
+Registered in 0.011383 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image E:\VR Development\Autumnotive\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image E:\VR Development\Autumnotive\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 107.00 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 108.64 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.510 seconds
+- Completed reload, in  1.409 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1511ms)
-		BeginReloadAssembly (121ms)
+	ReloadAssembly (1410ms)
+		BeginReloadAssembly (106ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (1248ms)
-			LoadAssemblies (127ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (1180ms)
+			LoadAssemblies (112ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (285ms)
-				TypeCache.Initialize (274ms)
-					TypeCache.ScanAssembly (268ms)
+			SetupTypeCache (271ms)
+				TypeCache.Initialize (261ms)
+					TypeCache.ScanAssembly (256ms)
 				ResolveRequiredComponents (11ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (704ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (674ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (5ms)
-				RefreshPlugins (107ms)
-				BeforeProcessingInitializeOnLoad (213ms)
-				ProcessInitializeOnLoadAttributes (283ms)
-				ProcessInitializeOnLoadMethodAttributes (86ms)
+				RefreshPlugins (109ms)
+				BeforeProcessingInitializeOnLoad (200ms)
+				ProcessInitializeOnLoadAttributes (270ms)
+				ProcessInitializeOnLoadMethodAttributes (78ms)
 				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 1.37 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5072 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (348.2 KB). Loaded Objects now: 5528.
+Unloading 31 unused Assets / (350.9 KB). Loaded Objects now: 5530.
 Memory consumption went from 0.79 GB to 0.79 GB.
-Total: 6.905300 ms (FindLiveObjects: 0.842300 ms CreateObjectMapping: 0.560400 ms MarkObjects: 5.296700 ms  DeleteObjects: 0.204600 ms)
+Total: 3.934500 ms (FindLiveObjects: 0.529000 ms CreateObjectMapping: 0.140400 ms MarkObjects: 3.095200 ms  DeleteObjects: 0.168800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -165,95 +165,79 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 28963.423229 seconds.
-  path: Assets/UniversalRenderPipelineGlobalSettings.asset
-  artifactKey: Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e120bbe5683b8fb731b794a9e4d7128') in 0.061405 seconds 
+  Time since last request: 128234.489674 seconds.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(18126b2fc43c20e48a261a1679a10100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 1.asset using Guid(18126b2fc43c20e48a261a1679a10100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46cf88cc637f63e2f1fae950f9eaf21b') in 0.048309 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 285.960165 seconds.
-  path: Assets/Buildings Pack - Jan 2019
-  artifactKey: Guid(4c85b576b8374f24fb02a1942d163cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Buildings Pack - Jan 2019 using Guid(4c85b576b8374f24fb02a1942d163cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15096b5586ecaf1e4169726f88086b06') in 0.005949 seconds 
+  Time since last request: 813.096563 seconds.
+  path: Assets/TerrainData_7fe6ee75-91a9-4ec5-8092-ba602323603e.asset
+  artifactKey: Guid(64b8416687af6b349bba9ea70df5c8ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_7fe6ee75-91a9-4ec5-8092-ba602323603e.asset using Guid(64b8416687af6b349bba9ea70df5c8ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a73b6dad3e69ead798d78844de9095eb') in 0.295239 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.373756 seconds.
-  path: Assets/vairogs_truck
-  artifactKey: Guid(f455ece74b383fe498ffca0fcb142d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/vairogs_truck using Guid(f455ece74b383fe498ffca0fcb142d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68ac71a66bbbe425d21da7998e413eb7') in 0.006024 seconds 
+  Time since last request: 3.425282 seconds.
+  path: Assets/TerrainData_cce3c4df-dfc6-4555-80d4-feaebcc111f3.asset
+  artifactKey: Guid(d74c77671e6f71c43bf83d6382c9b712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_cce3c4df-dfc6-4555-80d4-feaebcc111f3.asset using Guid(d74c77671e6f71c43bf83d6382c9b712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '328c4ed7bafbe48480cb389f311efaeb') in 0.268174 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.331047 seconds.
-  path: Assets/vairogs_truck/source
-  artifactKey: Guid(e3c1abc0241dc914abea089059e118b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/vairogs_truck/source using Guid(e3c1abc0241dc914abea089059e118b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '306e6fb995cbc0451e83a4731da2b5e9') in 0.005115 seconds 
+  Time since last request: 491.422718 seconds.
+  path: Assets/Ultimate Textured Building Pack - Dec 2019/Preview.png
+  artifactKey: Guid(edfccbf407f63c24e93b233a0ef932e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Preview.png using Guid(edfccbf407f63c24e93b233a0ef932e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1db99711fa92e61684d0c9291cbf8d7') in 0.117442 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.046735 seconds.
-  path: Assets/vairogs_truck/source/vairogsFlatbed.fbx
-  artifactKey: Guid(357247d0a551ed941aac876974f1ae7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/vairogs_truck/source/vairogsFlatbed.fbx using Guid(357247d0a551ed941aac876974f1ae7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25f3c656979a672373b5216b0787f48d') in 5.110201 seconds 
+  Time since last request: 1102.402763 seconds.
+  path: Assets/Farm Buildings - Sept 2018
+  artifactKey: Guid(bf2dfd555d97c2449a45dd01d46b0f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Farm Buildings - Sept 2018 using Guid(bf2dfd555d97c2449a45dd01d46b0f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7e97b7988c0f8985aa8791473bc5b6f') in 0.006180 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 32.455511 seconds.
-  path: Assets/Buildings Pack - Jan 2019/Preview.png
-  artifactKey: Guid(8771213ded9a343428e0d9497fa3aa21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Buildings Pack - Jan 2019/Preview.png using Guid(8771213ded9a343428e0d9497fa3aa21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2998063215d545ef4a9f6ef6e9cd738') in 0.033051 seconds 
+  Time since last request: 0.862611 seconds.
+  path: Assets/Farm Buildings - Sept 2018/OBJ
+  artifactKey: Guid(75743fa9200f08c478e4b1b164ad4e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Farm Buildings - Sept 2018/OBJ using Guid(75743fa9200f08c478e4b1b164ad4e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f8038a313039ddfb632b3b255397f95') in 0.005655 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.365855 seconds.
-  path: Assets/Buildings Pack - Jan 2019/OBJ
-  artifactKey: Guid(650160713ddb2684ea097d4a944e59ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Buildings Pack - Jan 2019/OBJ using Guid(650160713ddb2684ea097d4a944e59ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf36427742d6d5533345ab15c543dc8a') in 0.005694 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.089878 seconds.
-  path: Assets/Buildings Pack - Jan 2019/OBJ/Building1_Large.obj
-  artifactKey: Guid(80fd296e726c26b4b95067b236077aa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Buildings Pack - Jan 2019/OBJ/Building1_Large.obj using Guid(80fd296e726c26b4b95067b236077aa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b6bde01ecbd0ceafd089a76bc58f31d') in 0.104294 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Buildings Pack - Jan 2019/OBJ/Building4.obj
-  artifactKey: Guid(fc55babf676053f4e80dcbffa56d3986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Buildings Pack - Jan 2019/OBJ/Building4.obj using Guid(fc55babf676053f4e80dcbffa56d3986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ea7035751339701976f35104c50930c') in 0.088756 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Buildings Pack - Jan 2019/OBJ/Building3_Small.obj
-  artifactKey: Guid(3f7ced06d0b614443a41e525251fd364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Buildings Pack - Jan 2019/OBJ/Building3_Small.obj using Guid(3f7ced06d0b614443a41e525251fd364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bf0fa7b33e037e9728a239e7872ed70') in 0.075195 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Buildings Pack - Jan 2019/OBJ/Building3_Big.obj
-  artifactKey: Guid(d241ac6e6c7b0814787d71862dc28582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Buildings Pack - Jan 2019/OBJ/Building3_Big.obj using Guid(d241ac6e6c7b0814787d71862dc28582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '721da3ce8ef066d64c62a14b4a8d3246') in 0.078403 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Buildings Pack - Jan 2019/OBJ/Building2_Large.obj
-  artifactKey: Guid(6e526f5151336f34993eccad22205941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Buildings Pack - Jan 2019/OBJ/Building2_Large.obj using Guid(6e526f5151336f34993eccad22205941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '108c0e1cbdf3e6c5e2c71a8b096cdc0b') in 0.088395 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Buildings Pack - Jan 2019/OBJ/House2.obj
-  artifactKey: Guid(05ec6e264db0c6c4baa1b753b1422da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Buildings Pack - Jan 2019/OBJ/House2.obj using Guid(05ec6e264db0c6c4baa1b753b1422da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07bfbf086e05c0f309579b21997575f4') in 0.063824 seconds 
+  Time since last request: 0.463097 seconds.
+  path: Assets/Farm Buildings - Sept 2018/OBJ/Barn.obj
+  artifactKey: Guid(46ef0fd0569b2f243b7412216c6d5a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Farm Buildings - Sept 2018/OBJ/Barn.obj using Guid(46ef0fd0569b2f243b7412216c6d5a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7cfa70823b79fced04c446394236769') in 0.825539 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000031 seconds.
-  path: Assets/Buildings Pack - Jan 2019/OBJ/Building2_Small.obj
-  artifactKey: Guid(5319c14dbcfbe6b4ba338c67753d5d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Buildings Pack - Jan 2019/OBJ/Building2_Small.obj using Guid(5319c14dbcfbe6b4ba338c67753d5d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf7b5817acbcfa4039a115bcb8a1e410') in 0.085732 seconds 
+  path: Assets/Farm Buildings - Sept 2018/OBJ/WaterTower.obj
+  artifactKey: Guid(e7a22407ed513d144a2b2c9180de7b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Farm Buildings - Sept 2018/OBJ/WaterTower.obj using Guid(e7a22407ed513d144a2b2c9180de7b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29ed99bc853e0ea317f7cd56fcb8fcd3') in 0.080898 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Buildings Pack - Jan 2019/OBJ/House1.obj
-  artifactKey: Guid(f94adaaad35f9fe4b868ee91d879a6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Buildings Pack - Jan 2019/OBJ/House1.obj using Guid(f94adaaad35f9fe4b868ee91d879a6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abb5b4723df0ef142f295380457a73de') in 0.065616 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+  Time since last request: 0.000028 seconds.
+  path: Assets/Farm Buildings - Sept 2018/OBJ/Silo_House.obj
+  artifactKey: Guid(1e5b024a10f41ee43a4b1b6326e16f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Farm Buildings - Sept 2018/OBJ/Silo_House.obj using Guid(1e5b024a10f41ee43a4b1b6326e16f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76a1f8984ef2649fe294f096a7e8ecc1') in 0.096332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Farm Buildings - Sept 2018/OBJ/Silo.obj
+  artifactKey: Guid(1943b858625115547a651ea1c23f4c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Farm Buildings - Sept 2018/OBJ/Silo.obj using Guid(1943b858625115547a651ea1c23f4c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49d47d0ca45bf92664157dc7e7dcd0d0') in 0.061089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Farm Buildings - Sept 2018/OBJ/ChickenCoop.obj
+  artifactKey: Guid(60fb403e1bf183f439ba473eb3135cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Farm Buildings - Sept 2018/OBJ/ChickenCoop.obj using Guid(60fb403e1bf183f439ba473eb3135cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dd0c5499887cc20dccd43f83617262f') in 0.061456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Farm Buildings - Sept 2018/OBJ/Fence.obj
+  artifactKey: Guid(d8928ae63808136429ef1a58015496ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Farm Buildings - Sept 2018/OBJ/Fence.obj using Guid(d8928ae63808136429ef1a58015496ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '888c7f3b52a23d661e4dd4748db21742') in 0.034220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Farm Buildings - Sept 2018/OBJ/TowerWindmill.obj
+  artifactKey: Guid(3deaa7674769d4e49980634a543b9516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Farm Buildings - Sept 2018/OBJ/TowerWindmill.obj using Guid(3deaa7674769d4e49980634a543b9516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59526d8977067d40dec3a3d635468893') in 0.136342 seconds 
