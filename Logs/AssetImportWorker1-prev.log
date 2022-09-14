@@ -15,7 +15,7 @@ E:/VR Development/Autumnotive
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-60712
+58474
 Successfully changed project path to: E:/VR Development/Autumnotive
 E:/VR Development/Autumnotive
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ E:/VR Development/Autumnotive
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 138.03 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 130.37 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.1.15f1 (42973686a05c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/Resources/UnitySubsystems
@@ -63,95 +63,95 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56348
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56536
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.019213 seconds.
+Registered in 0.007169 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 127.13 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 118.54 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.051 seconds
+- Completed reload, in  0.732 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1051ms)
-		BeginReloadAssembly (113ms)
+	ReloadAssembly (732ms)
+		BeginReloadAssembly (75ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (655ms)
-			LoadAssemblies (110ms)
+		EndReloadAssembly (540ms)
+			LoadAssemblies (72ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (228ms)
-				TypeCache.Initialize (228ms)
-					TypeCache.ScanAssembly (226ms)
+			SetupTypeCache (121ms)
+				TypeCache.Initialize (121ms)
+					TypeCache.ScanAssembly (118ms)
 				ResolveRequiredComponents (0ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (322ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (327ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (9ms)
-				RefreshPlugins (127ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (127ms)
-				ProcessInitializeOnLoadMethodAttributes (44ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (119ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (146ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.012011 seconds.
+Registered in 0.015473 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image E:\VR Development\Autumnotive\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image E:\VR Development\Autumnotive\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 104.47 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 109.67 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.510 seconds
+- Completed reload, in  1.499 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1511ms)
-		BeginReloadAssembly (123ms)
+	ReloadAssembly (1500ms)
+		BeginReloadAssembly (117ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (1245ms)
-			LoadAssemblies (126ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (1250ms)
+			LoadAssemblies (112ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (281ms)
-				TypeCache.Initialize (270ms)
-					TypeCache.ScanAssembly (266ms)
-				ResolveRequiredComponents (11ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (65ms)
-			SetupLoadedEditorAssemblies (708ms)
+			SetupTypeCache (288ms)
+				TypeCache.Initialize (278ms)
+					TypeCache.ScanAssembly (273ms)
+				ResolveRequiredComponents (10ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (719ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (5ms)
-				RefreshPlugins (105ms)
-				BeforeProcessingInitializeOnLoad (213ms)
-				ProcessInitializeOnLoadAttributes (287ms)
-				ProcessInitializeOnLoadMethodAttributes (88ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				SetLoadedEditorAssemblies (8ms)
+				RefreshPlugins (110ms)
+				BeforeProcessingInitializeOnLoad (204ms)
+				ProcessInitializeOnLoadAttributes (293ms)
+				ProcessInitializeOnLoadMethodAttributes (94ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 2.05 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5072 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (348.2 KB). Loaded Objects now: 5528.
+Unloading 31 unused Assets / (350.7 KB). Loaded Objects now: 5530.
 Memory consumption went from 0.79 GB to 0.79 GB.
-Total: 5.708300 ms (FindLiveObjects: 0.746300 ms CreateObjectMapping: 0.181600 ms MarkObjects: 4.463000 ms  DeleteObjects: 0.316100 ms)
+Total: 3.668100 ms (FindLiveObjects: 0.520500 ms CreateObjectMapping: 0.149900 ms MarkObjects: 2.833400 ms  DeleteObjects: 0.163000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -163,85 +163,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 28963.446300 seconds.
-  path: Assets/Readme.asset
-  artifactKey: Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Readme.asset using Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2057a5ea6791a132e68cdc0ab31ca666') in 0.058369 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 327.813500 seconds.
-  path: Assets/Buildings Pack - Jan 2019/OBJ/Building1_Small.obj
-  artifactKey: Guid(9332a0ed28afebb4792497b9e10180e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Buildings Pack - Jan 2019/OBJ/Building1_Small.obj using Guid(9332a0ed28afebb4792497b9e10180e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0ce0d8a37e8d86ed8f57b307efc88a7') in 1.985520 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 105.366452 seconds.
-  path: Assets/Buildings Pack - Jan 2019/FBX/Building1_Small.fbx
-  artifactKey: Guid(a2edf128cc9b6234496a8326ba671011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Buildings Pack - Jan 2019/FBX/Building1_Small.fbx using Guid(a2edf128cc9b6234496a8326ba671011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6149c8e2bd5fe1c62f32e901b6a0562') in 0.087370 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Buildings Pack - Jan 2019/FBX/House1.fbx
-  artifactKey: Guid(870e55630c38904489558ab40b05dc82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Buildings Pack - Jan 2019/FBX/House1.fbx using Guid(870e55630c38904489558ab40b05dc82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44eea576befe6c9080f11f76abf3d4d5') in 0.064170 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Buildings Pack - Jan 2019/FBX/Building3_Small.fbx
-  artifactKey: Guid(56865a2c1918a204c990e50f9babe99f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Buildings Pack - Jan 2019/FBX/Building3_Small.fbx using Guid(56865a2c1918a204c990e50f9babe99f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ed79046bde7f8b12684647e4fdb83aa') in 0.064070 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Buildings Pack - Jan 2019/FBX/Building2_Small.fbx
-  artifactKey: Guid(8dc06f2d9f127114d98febb4099dc19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Buildings Pack - Jan 2019/FBX/Building2_Small.fbx using Guid(8dc06f2d9f127114d98febb4099dc19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2f0a6b43172438fc080a0562ac7c2d8') in 0.069805 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Buildings Pack - Jan 2019/FBX/House2.fbx
-  artifactKey: Guid(0d0587cb1e2e0a4468627da1dc9f4b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Buildings Pack - Jan 2019/FBX/House2.fbx using Guid(0d0587cb1e2e0a4468627da1dc9f4b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ed0f69065f3a38844725b50342d3594') in 0.048293 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Buildings Pack - Jan 2019/FBX/Building3_Big.fbx
-  artifactKey: Guid(52ad8ab1bf9af3f4c90813087cd245f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Buildings Pack - Jan 2019/FBX/Building3_Big.fbx using Guid(52ad8ab1bf9af3f4c90813087cd245f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e88ee53bf8bbe30877238de0c61ed308') in 0.067526 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Buildings Pack - Jan 2019/FBX/Building4.fbx
-  artifactKey: Guid(0f2757cc842c08f40bd3bd1a98f953dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Buildings Pack - Jan 2019/FBX/Building4.fbx using Guid(0f2757cc842c08f40bd3bd1a98f953dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a3ea1fad10e6b4de03d7c9719f136d2') in 0.092068 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 24.682594 seconds.
-  path: Assets/Buildings Pack - Jan 2019/Blends/Building1_Small.blend
-  artifactKey: Guid(76546688c3f0c714d9db43adf9ba8e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Buildings Pack - Jan 2019/Blends/Building1_Small.blend using Guid(76546688c3f0c714d9db43adf9ba8e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce17746b509d2fc219ac1dd899dd8336') in 0.090003 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Buildings Pack - Jan 2019/Blends/Building2_Small.blend
-  artifactKey: Guid(e204236e69365a24a92f5acf4eca65c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Buildings Pack - Jan 2019/Blends/Building2_Small.blend using Guid(e204236e69365a24a92f5acf4eca65c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e1eae0686922afac473b0d9ea61c730') in 0.075570 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Buildings Pack - Jan 2019/Blends/House2.blend
-  artifactKey: Guid(f9ea1a094aad0884c9cc1a31d731cd9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Buildings Pack - Jan 2019/Blends/House2.blend using Guid(f9ea1a094aad0884c9cc1a31d731cd9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd504e0894908cb3357052738e066da8f') in 0.048691 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/Buildings Pack - Jan 2019/Blends/House1.blend
-  artifactKey: Guid(33d39e500730d214288f037544c18b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Buildings Pack - Jan 2019/Blends/House1.blend using Guid(33d39e500730d214288f037544c18b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c688a4b742cff7d1f07b78db85510e67') in 0.050351 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
