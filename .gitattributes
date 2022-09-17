@@ -2,3 +2,4 @@
 lld filter=lfs diff=lfs merge=lfs -text
 Library/PackageCache/com.unity.burst@1.7.3/.Runtime/libburst-llvm-12.dylib filter=lfs diff=lfs merge=lfs -text
 Library/PackageCache/com.unity.burst@1.7.3/.Runtime/hostmac/lld filter=lfs diff=lfs merge=lfs -text
+Assets/New[[:space:]]Terrain[[:space:]]1.asset filter=lfs diff=lfs merge=lfs -text
