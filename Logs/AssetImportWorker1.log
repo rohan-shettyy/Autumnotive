@@ -15,7 +15,7 @@ E:/VR Development/Autumnotive
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-64063
+55376
 Successfully changed project path to: E:/VR Development/Autumnotive
 E:/VR Development/Autumnotive
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ E:/VR Development/Autumnotive
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 120.77 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 121.78 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.1.15f1 (42973686a05c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/Resources/UnitySubsystems
@@ -63,95 +63,95 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56564
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56460
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005510 seconds.
+Registered in 0.006746 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 105.76 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 121.19 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.651 seconds
+- Completed reload, in  0.723 seconds
 Domain Reload Profiling:
-	ReloadAssembly (651ms)
-		BeginReloadAssembly (70ms)
+	ReloadAssembly (724ms)
+		BeginReloadAssembly (77ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (471ms)
-			LoadAssemblies (68ms)
+		EndReloadAssembly (530ms)
+			LoadAssemblies (74ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (106ms)
-				TypeCache.Initialize (106ms)
-					TypeCache.ScanAssembly (104ms)
-				ResolveRequiredComponents (0ms)
+			SetupTypeCache (122ms)
+				TypeCache.Initialize (121ms)
+					TypeCache.ScanAssembly (119ms)
+				ResolveRequiredComponents (1ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (281ms)
+			SetupLoadedEditorAssemblies (317ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (7ms)
-				RefreshPlugins (106ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (16ms)
+				RefreshPlugins (121ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (120ms)
-				ProcessInitializeOnLoadMethodAttributes (40ms)
+				ProcessInitializeOnLoadAttributes (128ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.011249 seconds.
+Registered in 0.011753 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image E:\VR Development\Autumnotive\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image E:\VR Development\Autumnotive\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 114.33 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 122.89 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.469 seconds
+- Completed reload, in  1.508 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1470ms)
-		BeginReloadAssembly (104ms)
+	ReloadAssembly (1509ms)
+		BeginReloadAssembly (120ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (1245ms)
-			LoadAssemblies (110ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (1259ms)
+			LoadAssemblies (117ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (274ms)
-				TypeCache.Initialize (264ms)
-					TypeCache.ScanAssembly (259ms)
+			SetupTypeCache (275ms)
+				TypeCache.Initialize (265ms)
+					TypeCache.ScanAssembly (261ms)
 				ResolveRequiredComponents (10ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (724ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (744ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (5ms)
-				RefreshPlugins (114ms)
-				BeforeProcessingInitializeOnLoad (225ms)
-				ProcessInitializeOnLoadAttributes (281ms)
-				ProcessInitializeOnLoadMethodAttributes (88ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				RefreshPlugins (123ms)
+				BeforeProcessingInitializeOnLoad (218ms)
+				ProcessInitializeOnLoadAttributes (299ms)
+				ProcessInitializeOnLoadMethodAttributes (85ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 1.77 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.59 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5072 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (352.6 KB). Loaded Objects now: 5536.
+Unloading 31 unused Assets / (352.4 KB). Loaded Objects now: 5539.
 Memory consumption went from 0.79 GB to 0.79 GB.
-Total: 3.668000 ms (FindLiveObjects: 0.528000 ms CreateObjectMapping: 0.151500 ms MarkObjects: 2.793300 ms  DeleteObjects: 0.194300 ms)
+Total: 4.396000 ms (FindLiveObjects: 0.447900 ms CreateObjectMapping: 0.146300 ms MarkObjects: 3.472600 ms  DeleteObjects: 0.327300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -165,197 +165,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 5464.890197 seconds.
-  path: Assets/TerrainData_cce3c4df-dfc6-4555-80d4-feaebcc111f3.asset
-  artifactKey: Guid(d74c77671e6f71c43bf83d6382c9b712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainData_cce3c4df-dfc6-4555-80d4-feaebcc111f3.asset using Guid(d74c77671e6f71c43bf83d6382c9b712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81488716ce6147dde771e9009d1951d6') in 1.175210 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Stylized Nature Kit/Prefabs/Birch Trees/Birch Tree 1.prefab
-  artifactKey: Guid(1af84a30c37fbc4428052892cbe9dd3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Nature Kit/Prefabs/Birch Trees/Birch Tree 1.prefab using Guid(1af84a30c37fbc4428052892cbe9dd3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f168459eef07cd6acd29999b2c2af92') in 0.443132 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Stylized Nature Kit/Prefabs/Birch Trees
-  artifactKey: Guid(b8ddfc0ce98bae247b89d3b221454093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Nature Kit/Prefabs/Birch Trees using Guid(b8ddfc0ce98bae247b89d3b221454093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbc46ce76ae74383383f11face254839') in 0.006855 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
+  Time since last request: 78967.492856 seconds.
   path: Assets/New Terrain 1.asset
   artifactKey: Guid(18126b2fc43c20e48a261a1679a10100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain 1.asset using Guid(18126b2fc43c20e48a261a1679a10100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '095d56deec4f93a08eaa672ad8f401cc') in 0.048289 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Stylized Nature Kit/Prefabs/Birch Trees/Birch Tree 2.prefab
-  artifactKey: Guid(f7e392e8f67865443b864cd0ce4df972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Nature Kit/Prefabs/Birch Trees/Birch Tree 2.prefab using Guid(f7e392e8f67865443b864cd0ce4df972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71134cc9f4491bc16b615d5c1be58b36') in 0.027474 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.069624 seconds.
-  path: Assets/Stylized Nature Kit/Meshes/Birch Trees/Birch Tree 3.fbx
-  artifactKey: Guid(79746829c5ea83c448c941b2759fa541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Nature Kit/Meshes/Birch Trees/Birch Tree 3.fbx using Guid(79746829c5ea83c448c941b2759fa541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03d480e22ecfd477b3be4547d3fbc8a5') in 0.237392 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Stylized Nature Kit/Meshes/Birch Trees/Birch Tree 5.fbx
-  artifactKey: Guid(158fabc803f0210449ae55bad054c89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Nature Kit/Meshes/Birch Trees/Birch Tree 5.fbx using Guid(158fabc803f0210449ae55bad054c89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2982a11b33c9c1936364411eaef9878') in 0.136698 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.646356 seconds.
-  path: Assets/Stylized Nature Kit/Terrain Textures/Rock.png
-  artifactKey: Guid(78d7467faf801c349908e44a0dc89f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Nature Kit/Terrain Textures/Rock.png using Guid(78d7467faf801c349908e44a0dc89f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ced9834729c148687acf8cd496aae344') in 0.036563 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.736879 seconds.
-  path: Assets/Stylized Nature Kit/Textures/Color Pallet.png
-  artifactKey: Guid(3a3ec579ae0a6cd458d30670586415b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Nature Kit/Textures/Color Pallet.png using Guid(3a3ec579ae0a6cd458d30670586415b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79857fd07c10fbd3570b5e38dc59b084') in 0.017731 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Stylized Nature Kit/Textures/Pin Tree Branch.png
-  artifactKey: Guid(9836247c561816648869e82a9a0390d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Nature Kit/Textures/Pin Tree Branch.png using Guid(9836247c561816648869e82a9a0390d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb7f00f091370e6969366b825105d955') in 0.035347 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Stylized Nature Kit/Textures/Reed Grass.png
-  artifactKey: Guid(5ccd5432ff4500049b043687b8e7c692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Nature Kit/Textures/Reed Grass.png using Guid(5ccd5432ff4500049b043687b8e7c692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c483bf4dcf25bf04e454658fbcce4e9') in 0.021107 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Stylized Nature Kit/Textures/Plant 2.png
-  artifactKey: Guid(a3edf601d0f999c4bb9ef4964246afc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Nature Kit/Textures/Plant 2.png using Guid(a3edf601d0f999c4bb9ef4964246afc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c75e65b71e708fe29b0c1b438c6e9430') in 0.022834 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Stylized Nature Kit/Textures/Shrubs Flower.png
-  artifactKey: Guid(3bdc36b6a9ee59649b591241397577ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Nature Kit/Textures/Shrubs Flower.png using Guid(3bdc36b6a9ee59649b591241397577ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29c7bc72a242a99d61d92d106e7497fd') in 0.023361 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.941811 seconds.
-  path: Assets/Stylized Nature Kit/Scenes/Scene/ReflectionProbe-1.exr
-  artifactKey: Guid(5046c263cbe74ae4ca4551af5d3e1410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Nature Kit/Scenes/Scene/ReflectionProbe-1.exr using Guid(5046c263cbe74ae4ca4551af5d3e1410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd95b56339d117bda4cb1c5043e1a0b4b') in 0.040296 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 243.310149 seconds.
-  path: Assets/Stylized Nature Kit/Materials/Broadleaf Trees Leaves.mat
-  artifactKey: Guid(adfa1aa13965d144a8a48a91519088f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Nature Kit/Materials/Broadleaf Trees Leaves.mat using Guid(adfa1aa13965d144a8a48a91519088f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd69dc7fae7ae6511ac701fdde3f7e4b4') in 0.036909 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Stylized Nature Kit/Materials/Type 1 Grass.mat
-  artifactKey: Guid(4675dd6e2ff32b14b9d1e1c5375dd872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Nature Kit/Materials/Type 1 Grass.mat using Guid(4675dd6e2ff32b14b9d1e1c5375dd872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03c9329ef916ca17bc0517ff3632b924') in 0.123800 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Stylized Nature Kit/Materials/Plant 2.mat
-  artifactKey: Guid(0342be97c15a3b64288b9fd152fbd2c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Nature Kit/Materials/Plant 2.mat using Guid(0342be97c15a3b64288b9fd152fbd2c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b175da620e6b946f8d9df0cb67ad949') in 0.039253 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Stylized Nature Kit/Materials/Color Pallet.mat
-  artifactKey: Guid(b725cacc7387b1f4e991c4bdfcd832c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Nature Kit/Materials/Color Pallet.mat using Guid(b725cacc7387b1f4e991c4bdfcd832c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e52ae7c92b3c8925db4397fdecda469c') in 0.013252 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Stylized Nature Kit/Materials/Flower Leaf.mat
-  artifactKey: Guid(10d1e5fa1fdbb574aa5b4f2402b99e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Nature Kit/Materials/Flower Leaf.mat using Guid(10d1e5fa1fdbb574aa5b4f2402b99e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cac3ac050dad88348ab137bb0ce8eb3') in 0.016611 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Stylized Nature Kit/Materials/Type 3 Grass.mat
-  artifactKey: Guid(66f279a34a85e89488230cdd9929ba4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Nature Kit/Materials/Type 3 Grass.mat using Guid(66f279a34a85e89488230cdd9929ba4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcc5bc1e55c4e6c7ac1ee556a017f118') in 0.012257 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Stylized Nature Kit/Materials/Type 1 Flower.mat
-  artifactKey: Guid(88f05d2515776bc41af3fc5f712cc564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Nature Kit/Materials/Type 1 Flower.mat using Guid(88f05d2515776bc41af3fc5f712cc564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39c04c868ae345dc50140de709a261fe') in 0.014245 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Stylized Nature Kit/Materials/Plant 3.mat
-  artifactKey: Guid(632bcf4f9f9bcdb4ab15612cd1c79c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Nature Kit/Materials/Plant 3.mat using Guid(632bcf4f9f9bcdb4ab15612cd1c79c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e33646a5347c3488daf64f318c352ad') in 0.018805 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Stylized Nature Kit/Materials/Type 2 Flower.mat
-  artifactKey: Guid(255f405191e0b7b49a763ca83cda87b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Nature Kit/Materials/Type 2 Flower.mat using Guid(255f405191e0b7b49a763ca83cda87b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '163188da3e023dc2346d2e43c78a1a38') in 0.012437 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Stylized Nature Kit/Materials/Reed Grass.mat
-  artifactKey: Guid(d3cc92e2f76f9fd4f8c2432f00664679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Nature Kit/Materials/Reed Grass.mat using Guid(d3cc92e2f76f9fd4f8c2432f00664679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa05650bc0896608667b7b1037438506') in 0.040971 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Stylized Nature Kit/Materials/Type 2 Grass.mat
-  artifactKey: Guid(27cf595961461044a8324bc378a87e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Nature Kit/Materials/Type 2 Grass.mat using Guid(27cf595961461044a8324bc378a87e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd84252430acc422d07f8c538672799a9') in 0.015047 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 120.511142 seconds.
-  path: Assets/Stylized Nature Kit/Terrain/Dirt.terrainlayer
-  artifactKey: Guid(b6cfb85e17d7fb44faf8dc8b60a45a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Nature Kit/Terrain/Dirt.terrainlayer using Guid(b6cfb85e17d7fb44faf8dc8b60a45a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3878f3980ab5739a4ccdcce868fa29ce') in 0.022640 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Stylized Nature Kit/Terrain/Rock.terrainlayer
-  artifactKey: Guid(3e218e6bfba87db4dacd2b6b72d60976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Nature Kit/Terrain/Rock.terrainlayer using Guid(3e218e6bfba87db4dacd2b6b72d60976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c177fb643551bc8a184d4a924dc8a3b8') in 0.013186 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Stylized Nature Kit/Terrain/Terrain Data.asset
-  artifactKey: Guid(1a630de371e56da4f9c868546343a75d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Nature Kit/Terrain/Terrain Data.asset using Guid(1a630de371e56da4f9c868546343a75d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b93cabf37a970c70fcacd719f4d2705') in 0.175986 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 287.318258 seconds.
-  path: Assets/Stylized Nature Kit/Prefabs/Grass Hills/Grass Hill 2.prefab
-  artifactKey: Guid(f57165587c1c9fb44946d4fb78a74622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Nature Kit/Prefabs/Grass Hills/Grass Hill 2.prefab using Guid(f57165587c1c9fb44946d4fb78a74622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a836275cf19efe2cbbc9e8f9bb427ec') in 0.023717 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Stylized Nature Kit/Prefabs/Grass Hills/Grass Hill 5.prefab
-  artifactKey: Guid(698e074ec196959419434bcfb21b0496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Nature Kit/Prefabs/Grass Hills/Grass Hill 5.prefab using Guid(698e074ec196959419434bcfb21b0496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f141b65406bf6531831d74b2197a45a') in 0.042093 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Stylized Nature Kit/Prefabs/Grass Hills/Grass Hill 4.prefab
-  artifactKey: Guid(3a5282eb3ba166449b93b69903d3b8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Nature Kit/Prefabs/Grass Hills/Grass Hill 4.prefab using Guid(3a5282eb3ba166449b93b69903d3b8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae69d13a7d630ed901aa6fa7464e6780') in 0.033340 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Stylized Nature Kit/Prefabs/Grass Hills/Grass Hill 3.prefab
-  artifactKey: Guid(b3fac0b60cd9dc74aa9b96556594e3ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Nature Kit/Prefabs/Grass Hills/Grass Hill 3.prefab using Guid(b3fac0b60cd9dc74aa9b96556594e3ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7746d14d1afebd0dafe230d1838bc43a') in 0.048593 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Start importing Assets/New Terrain 1.asset using Guid(18126b2fc43c20e48a261a1679a10100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99de5c1abf2497aa2425d32caf990a98') in 0.157367 seconds 
