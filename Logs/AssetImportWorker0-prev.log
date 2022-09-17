@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2022.1/staging' branch; Version is '2022.1.15f1 (42973686a05c) revision 4364086'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'en' Physical Memory: 16335 MB
+OS: 'Windows 10  (10.0.19043) 64bit Professional' Language: 'en' Physical Memory: 16269 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.1.15f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-E:/VR Development/Autumnotive
+C:/Users/boram/Desktop/Autumnotive
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60524
-Successfully changed project path to: E:/VR Development/Autumnotive
-E:/VR Development/Autumnotive
+58647
+Successfully changed project path to: C:/Users/boram/Desktop/Autumnotive
+C:/Users/boram/Desktop/Autumnotive
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,117 +47,118 @@ E:/VR Development/Autumnotive
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 113.98 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 179.76 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.1.15f1 (42973686a05c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path E:/VR Development/Autumnotive/Assets
+[Subsystems] Discovering subsystems at path C:/Users/boram/Desktop/Autumnotive/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2182)
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c8d)
     Vendor:   NVIDIA
-    VRAM:     5991 MB
-    Driver:   31.0.15.1659
+    VRAM:     1977 MB
+    Driver:   30.0.14.7219
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56812
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56136
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006660 seconds.
+Registered in 0.015732 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 105.53 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 185.88 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.674 seconds
+- Completed reload, in  1.261 seconds
 Domain Reload Profiling:
-	ReloadAssembly (675ms)
-		BeginReloadAssembly (68ms)
+	ReloadAssembly (1262ms)
+		BeginReloadAssembly (134ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (491ms)
-			LoadAssemblies (66ms)
+		EndReloadAssembly (868ms)
+			LoadAssemblies (127ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (115ms)
-				TypeCache.Initialize (114ms)
-					TypeCache.ScanAssembly (113ms)
-				ResolveRequiredComponents (0ms)
+			SetupTypeCache (209ms)
+				TypeCache.Initialize (209ms)
+					TypeCache.ScanAssembly (205ms)
+				ResolveRequiredComponents (1ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (283ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (529ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (6ms)
-				RefreshPlugins (106ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (124ms)
-				ProcessInitializeOnLoadMethodAttributes (40ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (9ms)
+				RefreshPlugins (186ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (237ms)
+				ProcessInitializeOnLoadMethodAttributes (83ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.011383 seconds.
+Registered in 0.016271 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\VR Development\Autumnotive\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\VR Development\Autumnotive\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\boram\Desktop\Autumnotive\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\boram\Desktop\Autumnotive\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 108.64 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 232.67 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.409 seconds
+- Completed reload, in  2.461 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1410ms)
-		BeginReloadAssembly (106ms)
+	ReloadAssembly (2462ms)
+		BeginReloadAssembly (207ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (10ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (1180ms)
-			LoadAssemblies (112ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (1960ms)
+			LoadAssemblies (151ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (271ms)
-				TypeCache.Initialize (261ms)
-					TypeCache.ScanAssembly (256ms)
-				ResolveRequiredComponents (11ms)
+			SetupTypeCache (521ms)
+				TypeCache.Initialize (500ms)
+					TypeCache.ScanAssembly (494ms)
+				ResolveRequiredComponents (21ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (57ms)
-			SetupLoadedEditorAssemblies (674ms)
+			RebuildScriptCaches (119ms)
+			SetupLoadedEditorAssemblies (1052ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (5ms)
-				RefreshPlugins (109ms)
-				BeforeProcessingInitializeOnLoad (200ms)
-				ProcessInitializeOnLoadAttributes (270ms)
-				ProcessInitializeOnLoadMethodAttributes (78ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (10ms)
+				RefreshPlugins (233ms)
+				BeforeProcessingInitializeOnLoad (183ms)
+				ProcessInitializeOnLoadAttributes (441ms)
+				ProcessInitializeOnLoadMethodAttributes (158ms)
+				AfterProcessingInitializeOnLoad (17ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.71 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 2.25 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5072 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (350.9 KB). Loaded Objects now: 5530.
+Unloading 5070 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (352.3 KB). Loaded Objects now: 5537.
 Memory consumption went from 0.79 GB to 0.79 GB.
-Total: 3.934500 ms (FindLiveObjects: 0.529000 ms CreateObjectMapping: 0.140400 ms MarkObjects: 3.095200 ms  DeleteObjects: 0.168800 ms)
+Total: 6.351800 ms (FindLiveObjects: 0.669700 ms CreateObjectMapping: 0.925600 ms MarkObjects: 4.468200 ms  DeleteObjects: 0.287000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -165,79 +166,83 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 128234.489674 seconds.
-  path: Assets/New Terrain 1.asset
-  artifactKey: Guid(18126b2fc43c20e48a261a1679a10100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain 1.asset using Guid(18126b2fc43c20e48a261a1679a10100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46cf88cc637f63e2f1fae950f9eaf21b') in 0.048309 seconds 
+  Time since last request: 153524.031622 seconds.
+  path: Assets/Stylized Nature Kit/Prefabs/Small Rocks/Small Rock 1.prefab
+  artifactKey: Guid(21f966637651fe543a3d970d2600adb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Nature Kit/Prefabs/Small Rocks/Small Rock 1.prefab using Guid(21f966637651fe543a3d970d2600adb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cbb45db104ee2ad819a0f363d0c4438') in 0.474114 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 813.096563 seconds.
-  path: Assets/TerrainData_7fe6ee75-91a9-4ec5-8092-ba602323603e.asset
-  artifactKey: Guid(64b8416687af6b349bba9ea70df5c8ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainData_7fe6ee75-91a9-4ec5-8092-ba602323603e.asset using Guid(64b8416687af6b349bba9ea70df5c8ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a73b6dad3e69ead798d78844de9095eb') in 0.295239 seconds 
+  Time since last request: 0.000045 seconds.
+  path: Assets/Stylized Nature Kit/Prefabs/Small Rocks/Small Rock 4.prefab
+  artifactKey: Guid(d7026c09f3906494c9427818eb71dd20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Nature Kit/Prefabs/Small Rocks/Small Rock 4.prefab using Guid(d7026c09f3906494c9427818eb71dd20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89081dec2ff0ba067d3ccf55f7ceca5b') in 0.025978 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.425282 seconds.
-  path: Assets/TerrainData_cce3c4df-dfc6-4555-80d4-feaebcc111f3.asset
-  artifactKey: Guid(d74c77671e6f71c43bf83d6382c9b712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainData_cce3c4df-dfc6-4555-80d4-feaebcc111f3.asset using Guid(d74c77671e6f71c43bf83d6382c9b712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '328c4ed7bafbe48480cb389f311efaeb') in 0.268174 seconds 
+  Time since last request: 0.000049 seconds.
+  path: Assets/Farm Buildings - Sept 2018/FBX/Silo_House.fbx
+  artifactKey: Guid(53f111b57b8142c4989b72b4b5dfae3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Farm Buildings - Sept 2018/FBX/Silo_House.fbx using Guid(53f111b57b8142c4989b72b4b5dfae3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f02437f940c30356926dacc14e4f54d5') in 0.158794 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 491.422718 seconds.
-  path: Assets/Ultimate Textured Building Pack - Dec 2019/Preview.png
-  artifactKey: Guid(edfccbf407f63c24e93b233a0ef932e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Preview.png using Guid(edfccbf407f63c24e93b233a0ef932e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1db99711fa92e61684d0c9291cbf8d7') in 0.117442 seconds 
+  Time since last request: 0.000045 seconds.
+  path: Assets/Stylized Nature Kit/Meshes/Sticks/Stick 2.fbx
+  artifactKey: Guid(53f70fa1f7d02334793856240709b47c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Nature Kit/Meshes/Sticks/Stick 2.fbx using Guid(53f70fa1f7d02334793856240709b47c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8c75edf85df9ddaa33961f7d4129d64') in 0.137831 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1102.402763 seconds.
-  path: Assets/Farm Buildings - Sept 2018
-  artifactKey: Guid(bf2dfd555d97c2449a45dd01d46b0f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Buildings - Sept 2018 using Guid(bf2dfd555d97c2449a45dd01d46b0f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7e97b7988c0f8985aa8791473bc5b6f') in 0.006180 seconds 
+  Time since last request: 0.000035 seconds.
+  path: Assets/Stylized Nature Kit/Prefabs/Small Terrains/Small Terrrain 4.prefab
+  artifactKey: Guid(a2fe5d43a58a4874abf6a6375c7a7844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Nature Kit/Prefabs/Small Terrains/Small Terrrain 4.prefab using Guid(a2fe5d43a58a4874abf6a6375c7a7844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf09eca66a6164f9773eb6b222a97954') in 0.033185 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.862611 seconds.
-  path: Assets/Farm Buildings - Sept 2018/OBJ
-  artifactKey: Guid(75743fa9200f08c478e4b1b164ad4e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Buildings - Sept 2018/OBJ using Guid(75743fa9200f08c478e4b1b164ad4e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f8038a313039ddfb632b3b255397f95') in 0.005655 seconds 
+  Time since last request: 0.000072 seconds.
+  path: Assets/Stylized Nature Kit/Prefabs/Small Rocks/Small Rock 5.prefab
+  artifactKey: Guid(4819feda8e664ed43bfa8d90ff5a4995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Nature Kit/Prefabs/Small Rocks/Small Rock 5.prefab using Guid(4819feda8e664ed43bfa8d90ff5a4995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54bdc2f63a47db089b576bbbba787381') in 0.037441 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.463097 seconds.
-  path: Assets/Farm Buildings - Sept 2018/OBJ/Barn.obj
-  artifactKey: Guid(46ef0fd0569b2f243b7412216c6d5a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Buildings - Sept 2018/OBJ/Barn.obj using Guid(46ef0fd0569b2f243b7412216c6d5a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7cfa70823b79fced04c446394236769') in 0.825539 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Farm Buildings - Sept 2018/OBJ/WaterTower.obj
-  artifactKey: Guid(e7a22407ed513d144a2b2c9180de7b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Buildings - Sept 2018/OBJ/WaterTower.obj using Guid(e7a22407ed513d144a2b2c9180de7b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29ed99bc853e0ea317f7cd56fcb8fcd3') in 0.080898 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Farm Buildings - Sept 2018/OBJ/Silo_House.obj
-  artifactKey: Guid(1e5b024a10f41ee43a4b1b6326e16f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Buildings - Sept 2018/OBJ/Silo_House.obj using Guid(1e5b024a10f41ee43a4b1b6326e16f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76a1f8984ef2649fe294f096a7e8ecc1') in 0.096332 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
+  Time since last request: 0.000038 seconds.
   path: Assets/Farm Buildings - Sept 2018/OBJ/Silo.obj
   artifactKey: Guid(1943b858625115547a651ea1c23f4c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Buildings - Sept 2018/OBJ/Silo.obj using Guid(1943b858625115547a651ea1c23f4c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49d47d0ca45bf92664157dc7e7dcd0d0') in 0.061089 seconds 
+Start importing Assets/Farm Buildings - Sept 2018/OBJ/Silo.obj using Guid(1943b858625115547a651ea1c23f4c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06d550006f5ca5c4063e0889f84b09e6') in 0.170520 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Farm Buildings - Sept 2018/OBJ/ChickenCoop.obj
-  artifactKey: Guid(60fb403e1bf183f439ba473eb3135cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Buildings - Sept 2018/OBJ/ChickenCoop.obj using Guid(60fb403e1bf183f439ba473eb3135cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dd0c5499887cc20dccd43f83617262f') in 0.061456 seconds 
+  Time since last request: 0.000061 seconds.
+  path: Assets/Stylized Nature Kit/Meshes/Small Rocks/Small Rock 1.fbx
+  artifactKey: Guid(b53571133faf56a4f8e1c0da212a34eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Nature Kit/Meshes/Small Rocks/Small Rock 1.fbx using Guid(b53571133faf56a4f8e1c0da212a34eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1306b0c629cfaebd2f2e06300dd38a73') in 0.101184 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Farm Buildings - Sept 2018/OBJ/Fence.obj
-  artifactKey: Guid(d8928ae63808136429ef1a58015496ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Buildings - Sept 2018/OBJ/Fence.obj using Guid(d8928ae63808136429ef1a58015496ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '888c7f3b52a23d661e4dd4748db21742') in 0.034220 seconds 
+  Time since last request: 0.000048 seconds.
+  path: Assets/Stylized Nature Kit/Meshes/Small Rocks/Small Rock 5.fbx
+  artifactKey: Guid(88a74d52ed782904cb802045a1ffb3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Nature Kit/Meshes/Small Rocks/Small Rock 5.fbx using Guid(88a74d52ed782904cb802045a1ffb3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c4600bcf42a5f7c8ee5b1a0ce751870') in 0.195822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Parts/FBX/Staircase.fbx
+  artifactKey: Guid(8f25b00d1d1c03441814f9d2dcac6828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Parts/FBX/Staircase.fbx using Guid(8f25b00d1d1c03441814f9d2dcac6828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57de10668fd4bab3ba41af8cc9e2f81b') in 0.055246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Farm Buildings - Sept 2018/FBX/Silo.fbx
+  artifactKey: Guid(5baf9dd415b42654c9f06fc802412a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Farm Buildings - Sept 2018/FBX/Silo.fbx using Guid(5baf9dd415b42654c9f06fc802412a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a22b547a4f90f7b39e4f8b07218efc70') in 0.074254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Stylized Nature Kit/Prefabs/Small Terrains/Small Terrrain 5.prefab
+  artifactKey: Guid(6d2ad71bf33fd4d48a435f9642291b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Nature Kit/Prefabs/Small Terrains/Small Terrrain 5.prefab using Guid(6d2ad71bf33fd4d48a435f9642291b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05f1d8be318a9a8182292374996db031') in 0.021672 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000037 seconds.
-  path: Assets/Farm Buildings - Sept 2018/OBJ/TowerWindmill.obj
-  artifactKey: Guid(3deaa7674769d4e49980634a543b9516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Buildings - Sept 2018/OBJ/TowerWindmill.obj using Guid(3deaa7674769d4e49980634a543b9516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59526d8977067d40dec3a3d635468893') in 0.136342 seconds 
+  path: Assets/Stylized Nature Kit/Prefabs/Small Rocks/Small Rock 3.prefab
+  artifactKey: Guid(92d0ab02799dc1a429c39814db252d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Nature Kit/Prefabs/Small Rocks/Small Rock 3.prefab using Guid(92d0ab02799dc1a429c39814db252d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15426437d6bed88ee1e91c1bcad29098') in 0.023952 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
