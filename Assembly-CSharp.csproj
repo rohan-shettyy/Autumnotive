@@ -56,10 +56,13 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\vairogs_truck\CarController.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Buildings Pack - Jan 2019\License.txt" />
+    <None Include="Assets\Ultimate Textured Building Pack - Dec 2019\License.txt" />
+    <None Include="Assets\Farm Buildings - Sept 2018\License.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
