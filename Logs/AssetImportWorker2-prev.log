@@ -15,7 +15,7 @@ D:/Programming/Autumnotive
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-52152
+56444
 Successfully changed project path to: D:/Programming/Autumnotive
 D:/Programming/Autumnotive
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ D:/Programming/Autumnotive
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 133.36 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 128.77 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.1.15f1 (42973686a05c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/Unity 2022.1.15f1/Editor/Data/Resources/UnitySubsystems
@@ -63,95 +63,154 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/Unity 2022.1.15f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/Unity 2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/Unity 2022.1.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56012
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56932
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/Unity 2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008725 seconds.
+Registered in 0.008974 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 128.16 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 128.70 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.818 seconds
+- Completed reload, in  0.790 seconds
 Domain Reload Profiling:
-	ReloadAssembly (818ms)
-		BeginReloadAssembly (92ms)
+	ReloadAssembly (790ms)
+		BeginReloadAssembly (83ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (592ms)
-			LoadAssemblies (88ms)
+		EndReloadAssembly (572ms)
+			LoadAssemblies (80ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (140ms)
-				TypeCache.Initialize (140ms)
-					TypeCache.ScanAssembly (138ms)
+			SetupTypeCache (139ms)
+				TypeCache.Initialize (138ms)
+					TypeCache.ScanAssembly (136ms)
 				ResolveRequiredComponents (0ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (350ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (333ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (7ms)
-				RefreshPlugins (128ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (129ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (150ms)
-				ProcessInitializeOnLoadMethodAttributes (53ms)
+				ProcessInitializeOnLoadAttributes (139ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.015307 seconds.
+Registered in 0.015301 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Programming\Autumnotive\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Programming\Autumnotive\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 146.66 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 117.42 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.602 seconds
+- Completed reload, in  1.315 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1603ms)
-		BeginReloadAssembly (130ms)
+	ReloadAssembly (1316ms)
+		BeginReloadAssembly (114ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (1341ms)
-			LoadAssemblies (103ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (1081ms)
+			LoadAssemblies (94ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (302ms)
-				TypeCache.Initialize (290ms)
-					TypeCache.ScanAssembly (286ms)
+			SetupTypeCache (274ms)
+				TypeCache.Initialize (263ms)
+					TypeCache.ScanAssembly (259ms)
 				ResolveRequiredComponents (11ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (68ms)
-			SetupLoadedEditorAssemblies (802ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (593ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (8ms)
-				RefreshPlugins (147ms)
-				BeforeProcessingInitializeOnLoad (154ms)
-				ProcessInitializeOnLoadAttributes (364ms)
-				ProcessInitializeOnLoadMethodAttributes (109ms)
-				AfterProcessingInitializeOnLoad (12ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (118ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (255ms)
+				ProcessInitializeOnLoadMethodAttributes (85ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 1.42 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5072 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (350.9 KB). Loaded Objects now: 5530.
+Unloading 5073 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (351.3 KB). Loaded Objects now: 5531.
 Memory consumption went from 0.79 GB to 0.79 GB.
-Total: 3.681600 ms (FindLiveObjects: 0.453600 ms CreateObjectMapping: 0.170800 ms MarkObjects: 2.859300 ms  DeleteObjects: 0.197100 ms)
+Total: 3.785200 ms (FindLiveObjects: 0.505800 ms CreateObjectMapping: 0.168400 ms MarkObjects: 2.922500 ms  DeleteObjects: 0.187100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014673 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Programming\Autumnotive\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Programming\Autumnotive\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.206 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1206ms)
+		BeginReloadAssembly (142ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (951ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (294ms)
+				TypeCache.Initialize (284ms)
+					TypeCache.ScanAssembly (278ms)
+				ResolveRequiredComponents (11ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (438ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (231ms)
+				ProcessInitializeOnLoadMethodAttributes (82ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4939 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (309.9 KB). Loaded Objects now: 5535.
+Memory consumption went from 0.76 GB to 0.76 GB.
+Total: 3.859700 ms (FindLiveObjects: 0.670300 ms CreateObjectMapping: 0.183800 ms MarkObjects: 2.914000 ms  DeleteObjects: 0.090300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -165,502 +224,286 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 79814.101411 seconds.
-  path: Assets/Farm Buildings - Sept 2018/OBJ/Well.obj
-  artifactKey: Guid(f29ade1119f95224ea5a261c6fee1c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Buildings - Sept 2018/OBJ/Well.obj using Guid(f29ade1119f95224ea5a261c6fee1c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8a7f20e95f3599beacf01794ec5da78') in 0.407090 seconds 
+  Time since last request: 228522.869492 seconds.
+  path: Assets/Buildings Pack - Jan 2019/FBX/Beige.mat
+  artifactKey: Guid(654f0a918f27c5646b4a0f62ea1b9025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buildings Pack - Jan 2019/FBX/Beige.mat using Guid(654f0a918f27c5646b4a0f62ea1b9025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4ce1a6a1abc7908a7d9b39bcbc16bd8') in 0.323419 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.342903 seconds.
-  path: Assets/Buildings Pack - Jan 2019/FBX/DarkGrey.mat
-  artifactKey: Guid(dab1cf38618e9604b9cee673188a720c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Buildings Pack - Jan 2019/FBX/DarkGrey.mat using Guid(dab1cf38618e9604b9cee673188a720c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a654ba01d1a8375766da55154a5f9381') in 0.017017 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.303208 seconds.
-  path: Assets/Farm Buildings - Sept 2018/FBX/Barn.fbx
-  artifactKey: Guid(7cad671e4b4571a47835402fe1e336af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Buildings - Sept 2018/FBX/Barn.fbx using Guid(7cad671e4b4571a47835402fe1e336af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bebab3f4cd73394a8e6efae7e1ed722c') in 0.109123 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Farm Buildings - Sept 2018/OBJ/BigBarn.obj
-  artifactKey: Guid(d7cc47d73c032e84fb04c3299e91b87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Buildings - Sept 2018/OBJ/BigBarn.obj using Guid(d7cc47d73c032e84fb04c3299e91b87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7bb8e6ded66487ab8009c7e8e98c789') in 0.052646 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.223519 seconds.
-  path: Assets/Buildings Pack - Jan 2019/FBX/Grey.mat
-  artifactKey: Guid(9cf667216edad29409bc189ac888c749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Buildings Pack - Jan 2019/FBX/Grey.mat using Guid(9cf667216edad29409bc189ac888c749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31c1970d0e91661223c5d73975a9a895') in 0.013493 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.269595 seconds.
-  path: Assets/Buildings Pack - Jan 2019/OBJ/Grey.mat
-  artifactKey: Guid(60cecb5be80bac6499e2f57be1b85d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Buildings Pack - Jan 2019/OBJ/Grey.mat using Guid(60cecb5be80bac6499e2f57be1b85d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41d182e09f8f0d5d41b91884ec9c8a48') in 0.012240 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.575267 seconds.
-  path: Assets/Buildings Pack - Jan 2019/FBX/LightYellow.mat
-  artifactKey: Guid(26a466d4746a19640a31046ebef9db5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Buildings Pack - Jan 2019/FBX/LightYellow.mat using Guid(26a466d4746a19640a31046ebef9db5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df89c9a861c555daa9ba5f77581fc223') in 0.037581 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Stylized Brick Materials/Materials/M_Brick05_V1.mat
-  artifactKey: Guid(e87ae93f4b161ad4d823b9960e55f44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Brick Materials/Materials/M_Brick05_V1.mat using Guid(e87ae93f4b161ad4d823b9960e55f44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd297b23672009ae79145c276e88ddd63') in 0.065388 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Stylized Brick Materials/Materials/M_Brick04_Variant01.mat
-  artifactKey: Guid(1aecaff51b2ae244c9826b86c7f9d6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Brick Materials/Materials/M_Brick04_Variant01.mat using Guid(1aecaff51b2ae244c9826b86c7f9d6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7f01c9e2c02b3d0b0bd0e527a6a2529') in 0.031695 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Stylized Brick Materials/Materials/M_Stone02_Variant02.mat
-  artifactKey: Guid(0558ea61733f64941a37cd788cdb9a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Brick Materials/Materials/M_Stone02_Variant02.mat using Guid(0558ea61733f64941a37cd788cdb9a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed56308246e3ffc36d9059ba2d82e669') in 0.062473 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Stylized Brick Materials/Materials/M_Brick03_Variant04.mat
-  artifactKey: Guid(aec53cb1e4ef93a4e80eb2b7b420217c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Brick Materials/Materials/M_Brick03_Variant04.mat using Guid(aec53cb1e4ef93a4e80eb2b7b420217c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd656ae2b33b62b46f53d8d21dcdbf013') in 0.027390 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Stylized Brick Materials/Materials/M_Brick05.mat
-  artifactKey: Guid(5a3ac0d286a1b97438bdf12f82c4da87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Brick Materials/Materials/M_Brick05.mat using Guid(5a3ac0d286a1b97438bdf12f82c4da87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6251e3d9ebfa6db63e9f7cdc5ca01ef4') in 0.029422 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Stylized Brick Materials/Materials/M_Brick03_Variant01.mat
-  artifactKey: Guid(c6f0efbea3f82864486fc78ddd1e58c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Brick Materials/Materials/M_Brick03_Variant01.mat using Guid(c6f0efbea3f82864486fc78ddd1e58c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e380e0ee0358619807126e572a3c74f3') in 0.028500 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Stylized Brick Materials/Materials/M_Stone01.mat
-  artifactKey: Guid(cc63e13cb45953849a973fc8923032c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Brick Materials/Materials/M_Stone01.mat using Guid(cc63e13cb45953849a973fc8923032c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ba27ca1cb969522b37e5c84aafa5976') in 0.029596 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.242413 seconds.
-  path: Assets/Stylized Brick Materials/Materials/M_Stone02_Variant03.mat
-  artifactKey: Guid(2c1dda915acb33641b57cf966bff604b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Brick Materials/Materials/M_Stone02_Variant03.mat using Guid(2c1dda915acb33641b57cf966bff604b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbd9ef9807570953fbfb7d7708f7469b') in 0.060572 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.493653 seconds.
-  path: Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Parts/FBX/Sign_Pharmacy.fbx
-  artifactKey: Guid(8f483d05bfd15ba4da9d84dd13963cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Parts/FBX/Sign_Pharmacy.fbx using Guid(8f483d05bfd15ba4da9d84dd13963cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5c1fd831ef2824ec86267c1ab1d23e1') in 0.029140 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Buildings/OBJ/1Story_RoundRoof_Base.obj
-  artifactKey: Guid(e4b8e3b0561d1d944b92f6642009a302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Buildings/OBJ/1Story_RoundRoof_Base.obj using Guid(e4b8e3b0561d1d944b92f6642009a302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cca192f2d91a39d6a8fce1e5713d9f2f') in 0.037567 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Buildings/OBJ/2Story_Base.obj
-  artifactKey: Guid(e852e7e181ded9e4182d60b540afbcd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Buildings/OBJ/2Story_Base.obj using Guid(e852e7e181ded9e4182d60b540afbcd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59bdd28cee4319f6c66088072af67faa') in 0.035905 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Buildings/FBX/2Story_RoundRoof_Base.fbx
-  artifactKey: Guid(91674b3b8f2f6ef43bb7e4160f8f4912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Buildings/FBX/2Story_RoundRoof_Base.fbx using Guid(91674b3b8f2f6ef43bb7e4160f8f4912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abb76d2d728bf52835225585abc2dfae') in 0.029376 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Buildings/OBJ/2Story_Center_Base.obj
-  artifactKey: Guid(ea737b8b737438d41971087dc69e2cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Buildings/OBJ/2Story_Center_Base.obj using Guid(ea737b8b737438d41971087dc69e2cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '711ac50ebb1f6a8904ab335a1c42e29c') in 0.037035 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Buildings/OBJ/3Story_Slim_Base.obj
-  artifactKey: Guid(72781cb639e54674899566a8f00aedbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Buildings/OBJ/3Story_Slim_Base.obj using Guid(72781cb639e54674899566a8f00aedbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd1546b9d308d244ba62f0ac7b84489d') in 0.033614 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Parts/FBX/Bricks_RightStraight.fbx
-  artifactKey: Guid(66400e6f277b0cd4781a297b41effa09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Parts/FBX/Bricks_RightStraight.fbx using Guid(66400e6f277b0cd4781a297b41effa09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6cd4af13baeaa1936e22a4190d6a965') in 0.028824 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Buildings/OBJ/2Story_Sidehouse_Base.obj
-  artifactKey: Guid(704af585d3ee3c54e8e431aeec95aee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Buildings/OBJ/2Story_Sidehouse_Base.obj using Guid(704af585d3ee3c54e8e431aeec95aee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c579fc9670826d710784e218af158dbd') in 0.035681 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Buildings/OBJ/1Story_Sign_Base.obj
-  artifactKey: Guid(aa4bd78d27a5b3841b5c03858cf3742f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Buildings/OBJ/1Story_Sign_Base.obj using Guid(aa4bd78d27a5b3841b5c03858cf3742f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af04e7e300baaee06d2ba19fb6d2f22e') in 0.034325 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Finished Textured Buildings/FBX/2Story_Wide.fbx
-  artifactKey: Guid(82c55f013f9f7964f8d850db2487352d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Finished Textured Buildings/FBX/2Story_Wide.fbx using Guid(82c55f013f9f7964f8d850db2487352d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb7421c0b8db83dd2a9021acf25fadaa') in 0.034396 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Finished Textured Buildings/OBJ/3Story_Balcony.obj
-  artifactKey: Guid(1ce086ce008abea468a95781bd76ed79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Finished Textured Buildings/OBJ/3Story_Balcony.obj using Guid(1ce086ce008abea468a95781bd76ed79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56f62c02c6627467405e42270ecb7007') in 0.035805 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Finished Textured Buildings/FBX/2Story_Wide_2Doors.fbx
-  artifactKey: Guid(435b64aca6d6da54fa19903de3511a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Finished Textured Buildings/FBX/2Story_Wide_2Doors.fbx using Guid(435b64aca6d6da54fa19903de3511a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5374ddbc059b94b269ad82131d1f218c') in 0.029990 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Parts/OBJ/Door1.obj
-  artifactKey: Guid(09a9bca3b63b49047acfa43a3a1aec1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Parts/OBJ/Door1.obj using Guid(09a9bca3b63b49047acfa43a3a1aec1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a450cf43c62ab59f1751d08a89a0871e') in 0.034913 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Parts/FBX/Door1.fbx
-  artifactKey: Guid(fe03bfef6158a07408d23698074d34c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Parts/FBX/Door1.fbx using Guid(fe03bfef6158a07408d23698074d34c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd033ced0e97278d05c34693b37a8fed9') in 0.045929 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Finished Textured Buildings/OBJ/2Story_Double.obj
-  artifactKey: Guid(fa6584f3f5084f34b95b3c18a8699afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Finished Textured Buildings/OBJ/2Story_Double.obj using Guid(fa6584f3f5084f34b95b3c18a8699afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '445d8b2ffb1f3330e8f350de326a691b') in 0.036638 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Finished Textured Buildings/OBJ/2Story_Wide_2Doors.obj
-  artifactKey: Guid(de3e4748f7f302d488e928064121aab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Finished Textured Buildings/OBJ/2Story_Wide_2Doors.obj using Guid(de3e4748f7f302d488e928064121aab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd4c203bd444566d316d3e4f4a1bac20') in 0.034646 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Parts/FBX/Stairs_Roof.fbx
-  artifactKey: Guid(4750b52bd0c23c44fb454b9a24ce2ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Parts/FBX/Stairs_Roof.fbx using Guid(4750b52bd0c23c44fb454b9a24ce2ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83ac70424159c1a5d96dcffccca796e3') in 0.038435 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Parts/FBX/Window_Double.fbx
-  artifactKey: Guid(aa007de66fb4aa6488d2822986872cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Parts/FBX/Window_Double.fbx using Guid(aa007de66fb4aa6488d2822986872cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23c0596881a383000ad6ff2d05821507') in 0.028340 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Parts/FBX/AC_Unitx4.fbx
-  artifactKey: Guid(f59e91c3acdc1814b86138a711beb42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Parts/FBX/AC_Unitx4.fbx using Guid(f59e91c3acdc1814b86138a711beb42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14937f129ff3c79ffbe411947b17be56') in 0.031321 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Finished Textured Buildings/OBJ/3Story_Slim.obj
-  artifactKey: Guid(a8a56d9eb7f91ad4c99e83386190ef45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Finished Textured Buildings/OBJ/3Story_Slim.obj using Guid(a8a56d9eb7f91ad4c99e83386190ef45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2068b47b1ba037d69fe88083b39bf491') in 0.048156 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Finished Textured Buildings/FBX/2Story_Double.fbx
-  artifactKey: Guid(42337f77b478d004f9639647af46c912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Finished Textured Buildings/FBX/2Story_Double.fbx using Guid(42337f77b478d004f9639647af46c912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e55ff099b95379375e9889bac4eba9b') in 0.029578 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Parts/FBX/Pipe_L.fbx
-  artifactKey: Guid(a53db95e177c28342a6591c7f81b6372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Parts/FBX/Pipe_L.fbx using Guid(a53db95e177c28342a6591c7f81b6372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bfb309b8d9ca01ebc34c28b5cee7198') in 0.030056 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Parts/FBX/Door2.fbx
-  artifactKey: Guid(e1e9a065e927f9d468ac77e28b50ab9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Parts/FBX/Door2.fbx using Guid(e1e9a065e927f9d468ac77e28b50ab9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccb7fd8fa79d25c8ae9845d27d91385a') in 0.028587 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Parts/FBX/Bricks_Single.fbx
-  artifactKey: Guid(0d8e6baa4804e5c48b40f75025e394d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Parts/FBX/Bricks_Single.fbx using Guid(0d8e6baa4804e5c48b40f75025e394d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '221c2f8710089112c04ede7f02249229') in 0.029332 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Parts/FBX/Window.fbx
-  artifactKey: Guid(2d6d9ea40fa8c3d42af6577836b44112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Parts/FBX/Window.fbx using Guid(2d6d9ea40fa8c3d42af6577836b44112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9fd9313963a55e496566ba27b653d27') in 0.031225 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Buildings/FBX/1Story_GableRoof_Base.fbx
-  artifactKey: Guid(f00d15e567c99434d8feb32796d410cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Buildings/FBX/1Story_GableRoof_Base.fbx using Guid(f00d15e567c99434d8feb32796d410cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d4c5688e5808888c6fa18ac7a5e0677') in 0.030120 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Buildings/OBJ/4Story_Center_Base.obj
-  artifactKey: Guid(18d3013b82af7df429cf87643f3d12a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Buildings/OBJ/4Story_Center_Base.obj using Guid(18d3013b82af7df429cf87643f3d12a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c572a4d628e9a68ed2eec9c0d7215090') in 0.038537 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Finished Textured Buildings/OBJ/2Story_Wide.obj
-  artifactKey: Guid(3c060a447b53efd46b909c9dfa4ceb3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Finished Textured Buildings/OBJ/2Story_Wide.obj using Guid(3c060a447b53efd46b909c9dfa4ceb3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c490f11cde2556cd0db1cd97c5647a60') in 0.036824 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Finished Textured Buildings/FBX/2Story_Center.fbx
-  artifactKey: Guid(c18e28571748dd4448264f429d354d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Finished Textured Buildings/FBX/2Story_Center.fbx using Guid(c18e28571748dd4448264f429d354d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '678b52dcb5708c280ed750d68b77fb40') in 0.031954 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Buildings/FBX/2Story_Center_Base.fbx
-  artifactKey: Guid(5cd97ce78df113949a4af92cc5d4041e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Buildings/FBX/2Story_Center_Base.fbx using Guid(5cd97ce78df113949a4af92cc5d4041e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df38c78278a34b05578bc3556aaefb29') in 0.030793 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Parts/FBX/Bricks_Small.fbx
-  artifactKey: Guid(0b764fbea507d9a42b83a1ce8c160df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Parts/FBX/Bricks_Small.fbx using Guid(0b764fbea507d9a42b83a1ce8c160df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1dbbfc183e33761b0ee11b58ecaf665') in 0.037564 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Finished Textured Buildings/OBJ/1Story_GableRoof.obj
-  artifactKey: Guid(7c5e268c154483645b606562d32b55d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Finished Textured Buildings/OBJ/1Story_GableRoof.obj using Guid(7c5e268c154483645b606562d32b55d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3a3500141387637789dcc98eb80ae1d') in 0.040116 seconds 
+  Time since last request: 0.000032 seconds.
+  path: Assets/Buildings Pack - Jan 2019/OBJ/Beige.mat
+  artifactKey: Guid(474e9584228520b40aabb2bc5cecb9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buildings Pack - Jan 2019/OBJ/Beige.mat using Guid(474e9584228520b40aabb2bc5cecb9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b28d89893f7fdf70ac208b4f5a033938') in 0.019938 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000043 seconds.
-  path: Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Finished Textured Buildings/OBJ/1Story_RoundRoof.obj
-  artifactKey: Guid(4c1654a176442794fa308ae773a9c237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Finished Textured Buildings/OBJ/1Story_RoundRoof.obj using Guid(4c1654a176442794fa308ae773a9c237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cf7177fb7ecd3de3eeea6ae77846d9f') in 0.037032 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Buildings/OBJ/2Story_Wide_Base.obj
-  artifactKey: Guid(adb98185f0403bc41abb79bc309e65a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Buildings/OBJ/2Story_Wide_Base.obj using Guid(adb98185f0403bc41abb79bc309e65a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2e4cd01792391d1472982971069b52f') in 0.036819 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Finished Textured Buildings/OBJ/1Story.obj
-  artifactKey: Guid(67c7da3e466b6ed4fb1d8f5f3b7c3fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Finished Textured Buildings/OBJ/1Story.obj using Guid(67c7da3e466b6ed4fb1d8f5f3b7c3fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dbe5abd4d25e36a943dc42f5cc0da9d') in 0.036806 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Buildings/FBX/4Story_Center_Base.fbx
-  artifactKey: Guid(78b4bad1778babd4aa7e43b8e82aea2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Buildings/FBX/4Story_Center_Base.fbx using Guid(78b4bad1778babd4aa7e43b8e82aea2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3958c8c3221a08a62b94aaee4b348715') in 0.031724 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000120 seconds.
-  path: Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Buildings/FBX/2Story_Base.fbx
-  artifactKey: Guid(ff10fd56323214d4fb76cdfb879f4545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Buildings/FBX/2Story_Base.fbx using Guid(ff10fd56323214d4fb76cdfb879f4545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1827d8bcfed81befbeef4c2414039438') in 0.032200 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Finished Textured Buildings/OBJ/2Story_Sign.obj
-  artifactKey: Guid(20207cb69914a044fa3d37224ad9f2c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Finished Textured Buildings/OBJ/2Story_Sign.obj using Guid(20207cb69914a044fa3d37224ad9f2c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87fd6906b27fb5e8df8142e2bcf7f029') in 0.039673 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Finished Textured Buildings/FBX/3Story_Slim.fbx
-  artifactKey: Guid(82de1a412ac38b643bb5cbaaae2206bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Finished Textured Buildings/FBX/3Story_Slim.fbx using Guid(82de1a412ac38b643bb5cbaaae2206bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e75bd71e1141424dedd123344e77dba4') in 0.036177 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.635111 seconds.
-  path: Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Parts/OBJ/Bricks_Small.obj
-  artifactKey: Guid(14bb360a804cf7e458de59ea5802820f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Parts/OBJ/Bricks_Small.obj using Guid(14bb360a804cf7e458de59ea5802820f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '453883f164c959c8ea2f19e2eac8d115') in 0.178815 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Parts/OBJ/Bricks_LeftStraight.obj
-  artifactKey: Guid(db57cbba30c51274d80455c6f6dfc1e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Parts/OBJ/Bricks_LeftStraight.obj using Guid(db57cbba30c51274d80455c6f6dfc1e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73c60de20a9077c05d15b0670c19bdd0') in 0.037154 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Parts/OBJ/Balcony.obj
-  artifactKey: Guid(6c7a6e9f94311484d9d14be3188c0697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Parts/OBJ/Balcony.obj using Guid(6c7a6e9f94311484d9d14be3188c0697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6cc6ec4c7b660a505fa6031d42963c1') in 0.034641 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Parts/OBJ/Pipe_Straight_Short.obj
-  artifactKey: Guid(e2c5bd06c9455584c95d43b714c9279d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Parts/OBJ/Pipe_Straight_Short.obj using Guid(e2c5bd06c9455584c95d43b714c9279d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59f4b132362d260ed891b161c1686866') in 0.051534 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Parts/OBJ/Stairs_Roof.obj
-  artifactKey: Guid(07702993244975449991a174d231679e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Parts/OBJ/Stairs_Roof.obj using Guid(07702993244975449991a174d231679e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd2487ba9d89ccf947228174cf38272b') in 0.034632 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Parts/OBJ/Pipe_L.obj
-  artifactKey: Guid(9eb5e50c91e18a2459ae4120cfae04a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Parts/OBJ/Pipe_L.obj using Guid(9eb5e50c91e18a2459ae4120cfae04a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcf2537d75d804f6736097910e8af322') in 0.034210 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Parts/FBX/Window_Roof.fbx
-  artifactKey: Guid(2947a91e0a2f6d44e849f9fc0b6b3bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Parts/FBX/Window_Roof.fbx using Guid(2947a91e0a2f6d44e849f9fc0b6b3bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac8ba6d39eb5915af4ddccd4b8a37f42') in 0.028937 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Finished Textured Buildings/FBX/1Story_Sign.fbx
-  artifactKey: Guid(801243f49e95b9e4791c5b0e341d2880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Finished Textured Buildings/FBX/1Story_Sign.fbx using Guid(801243f49e95b9e4791c5b0e341d2880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc19aa91ab1ed9e440031e91a64f8f59') in 0.028094 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Parts/OBJ/AC_Unitx4.obj
-  artifactKey: Guid(df8d71fe4c2ac3d45b5956230961c7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Parts/OBJ/AC_Unitx4.obj using Guid(df8d71fe4c2ac3d45b5956230961c7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b36e86eb10506c39a55da401821b49e') in 0.032689 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Parts/OBJ/Sign_Barbershop.obj
-  artifactKey: Guid(117982cc5c5c96d4f8ea9c63d72f65cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Parts/OBJ/Sign_Barbershop.obj using Guid(117982cc5c5c96d4f8ea9c63d72f65cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0de29a833d9c47b280964ec538b61700') in 0.033224 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Parts/OBJ/Door_Window.obj
-  artifactKey: Guid(c3a9304f898cbec4896cfc521fdce921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Parts/OBJ/Door_Window.obj using Guid(c3a9304f898cbec4896cfc521fdce921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '449e0b5156c3e575014591d0c005b123') in 0.032033 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Parts/OBJ/Pipe_Straight.obj
-  artifactKey: Guid(57420b03feddd5849a3876d47d7c36b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Textured Models/Base Modular Parts/OBJ/Pipe_Straight.obj using Guid(57420b03feddd5849a3876d47d7c36b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '193e109fca4ca1d500ac1c16034f53b2') in 0.032325 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.521262 seconds.
-  path: Packages/com.unity.nuget.newtonsoft-json/package.json
-  artifactKey: Guid(f8d4e5c2f2df25449ae8c391afbe5114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.nuget.newtonsoft-json/package.json using Guid(f8d4e5c2f2df25449ae8c391afbe5114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99bc710a7998ac17c33d6f4580aff396') in 0.008736 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.357307 seconds.
-  path: Packages/com.unity.mathematics/package.json
-  artifactKey: Guid(d34d0af25c21141a98c0cf3c0066444f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.mathematics/package.json using Guid(d34d0af25c21141a98c0cf3c0066444f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cbd79fa665b48a451741d55539ed1cc') in 0.002455 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.542513 seconds.
-  path: Assets/Ultimate Textured Building Pack - Dec 2019/Preview.png
-  artifactKey: Guid(edfccbf407f63c24e93b233a0ef932e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Preview.png using Guid(edfccbf407f63c24e93b233a0ef932e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a562c5c61cea9d5243b644b329c0ab6') in 0.052237 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.362079 seconds.
-  path: Assets/Settings/SampleSceneProfile.asset
-  artifactKey: Guid(a6560a915ef98420e9faacc1c7438823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/SampleSceneProfile.asset using Guid(a6560a915ef98420e9faacc1c7438823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aa143ccecf4a8617e441759fc8d523a') in 0.009238 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Settings/URP-HighFidelity.asset
-  artifactKey: Guid(7b7fd9122c28c4d15b667c7040e3b3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/URP-HighFidelity.asset using Guid(7b7fd9122c28c4d15b667c7040e3b3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c6823078d08d8ce0f0200f89785c86e') in 0.007326 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Settings/URP-Performant-Renderer.asset
-  artifactKey: Guid(707360a9c581a4bd7aa53bfeb1429f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/URP-Performant-Renderer.asset using Guid(707360a9c581a4bd7aa53bfeb1429f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dc77d295ea7dc025c9eb6800a16d96c') in 0.007874 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.263370 seconds.
-  path: Assets/Farm Buildings - Sept 2018/Preview.png
-  artifactKey: Guid(1430bbfedc4213d489a2a5d9fd5b4cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Buildings - Sept 2018/Preview.png using Guid(1430bbfedc4213d489a2a5d9fd5b4cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc909fedacaf87ada1143a2c5a7e3657') in 0.014599 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.319388 seconds.
-  path: Assets/Buildings Pack - Jan 2019/Preview.png
-  artifactKey: Guid(8771213ded9a343428e0d9497fa3aa21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Buildings Pack - Jan 2019/Preview.png using Guid(8771213ded9a343428e0d9497fa3aa21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0c581950aa1b227355eb9ab6e891e8e') in 0.010937 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 43.481099 seconds.
-  path: Assets/Buildings Pack - Jan 2019/friction_material.physicMaterial
-  artifactKey: Guid(bf36224222af04243b407987d11fcdc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Buildings Pack - Jan 2019/friction_material.physicMaterial using Guid(bf36224222af04243b407987d11fcdc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b99861c76d317f31705f6c022ee1306') in 0.007534 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 218.009548 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Decal.mat
-  artifactKey: Guid(31d0dcc6f2dd4e4408d18036a2c93862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Decal.mat using Guid(31d0dcc6f2dd4e4408d18036a2c93862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e76d3548ec72aaad9d4e07590cb4d664') in 0.018291 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesUnlit.mat
-  artifactKey: Guid(e823cd5b5d27c0f4b8256e7c12ee3e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesUnlit.mat using Guid(e823cd5b5d27c0f4b8256e7c12ee3e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d4b4f42e6a05b3fc8eb0194bddf7509') in 0.148972 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpatialMappingOcclusion.mat
-  artifactKey: Guid(b51db210fe78df745a372851b3db949e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpatialMappingOcclusion.mat using Guid(b51db210fe78df745a372851b3db949e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e329ba3cf2e895b94bfb99142668f0c6') in 0.015519 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/TerrainLit.mat
-  artifactKey: Guid(594ea882c5a793440b60ff72d896021e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/TerrainLit.mat using Guid(594ea882c5a793440b60ff72d896021e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83d53c62373eea7fe5374721c240945c') in 0.017255 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpriteMask-Default.mat
-  artifactKey: Guid(15d0c3709176029428a0da2f8cecf0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpriteMask-Default.mat using Guid(15d0c3709176029428a0da2f8cecf0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d55b71575223c3750d4dad88600252c') in 0.014274 seconds 
+  path: Assets/Ultimate Textured Building Pack - Dec 2019/Models with Materials/OBJ/4Story_Wide_2Doors_Mat.obj
+  artifactKey: Guid(3a4b2f834edfde44193457e0529a1a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Models with Materials/OBJ/4Story_Wide_2Doors_Mat.obj using Guid(3a4b2f834edfde44193457e0529a1a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '278b723683a3bb7b784e45e56148aad7') in 0.163749 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000022 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat
-  artifactKey: Guid(9dfc825aed78fcd4ba02077103263b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat using Guid(9dfc825aed78fcd4ba02077103263b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95cec93c321944a5878bbd2889c14684') in 0.015063 seconds 
+  path: Assets/Ultimate Textured Building Pack - Dec 2019/Models with Materials/OBJ/2Story_Sidehouse_Mat.obj
+  artifactKey: Guid(84c2bb7d4b3f30c4e925b953335ff2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Models with Materials/OBJ/2Story_Sidehouse_Mat.obj using Guid(84c2bb7d4b3f30c4e925b953335ff2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f659957e1994097803c19d5fc043feb') in 0.091193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Buildings Pack - Jan 2019/FBX/Building3_Small.fbx
+  artifactKey: Guid(56865a2c1918a204c990e50f9babe99f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buildings Pack - Jan 2019/FBX/Building3_Small.fbx using Guid(56865a2c1918a204c990e50f9babe99f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db6025adc5e127d2631963e0b831eb42') in 0.056113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Buildings Pack - Jan 2019/FBX/BrickRed.mat
+  artifactKey: Guid(819d4f21be35acb4b99e5cea9a0e9977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buildings Pack - Jan 2019/FBX/BrickRed.mat using Guid(819d4f21be35acb4b99e5cea9a0e9977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d5d2916c4d44a994b2f5ef7d6b4f208') in 0.017475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Farm Buildings - Sept 2018/FBX/TowerWindmill.fbx
+  artifactKey: Guid(0b06c36c8b09d19408d0deb2e2b55430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Farm Buildings - Sept 2018/FBX/TowerWindmill.fbx using Guid(0b06c36c8b09d19408d0deb2e2b55430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4525ffb53653756c2a3e83cdcd89004d') in 0.086753 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000025 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Lit-Default.mat
-  artifactKey: Guid(a97c105638bdf8b4a8650670310a4cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Lit-Default.mat using Guid(a97c105638bdf8b4a8650670310a4cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6af9c92f15533f255f777bd41ec42f54') in 0.016815 seconds 
+  path: Assets/Ultimate Textured Building Pack - Dec 2019/Models with Materials/OBJ/3Story_Balcony_Mat.obj
+  artifactKey: Guid(85bd547e6a732ed4c8988230e0368d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Models with Materials/OBJ/3Story_Balcony_Mat.obj using Guid(85bd547e6a732ed4c8988230e0368d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4300f50ac9dfd8065ff2f8629a10bff') in 0.086532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Ultimate Textured Building Pack - Dec 2019/Models with Materials/FBX/3Story_Balcony_Mat.fbx
+  artifactKey: Guid(29bc796cb168f7e4faa7c25d150f0702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Models with Materials/FBX/3Story_Balcony_Mat.fbx using Guid(29bc796cb168f7e4faa7c25d150f0702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7b1a726d852bb60315e078568cd5f9a') in 0.082611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Ultimate Textured Building Pack - Dec 2019/Models with Materials/FBX/1Story_Sign_Mat.fbx
+  artifactKey: Guid(9e69aef7c3d9cf54a9b262a697851c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Models with Materials/FBX/1Story_Sign_Mat.fbx using Guid(9e69aef7c3d9cf54a9b262a697851c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f19435ea96bb1037c81526564b04cd30') in 0.081170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Ultimate Textured Building Pack - Dec 2019/Models with Materials/FBX/2Story_Center_Mat.fbx
+  artifactKey: Guid(8c48a8fabb3b0e84fac7cc3409dcca65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Models with Materials/FBX/2Story_Center_Mat.fbx using Guid(8c48a8fabb3b0e84fac7cc3409dcca65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3d03808daae36c7ba47a1b89f1257c3') in 0.067671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Ultimate Textured Building Pack - Dec 2019/Models with Materials/OBJ/2Story_Columns_Mat.obj
+  artifactKey: Guid(23e1595ceeac93a459695d3f1a23d056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Models with Materials/OBJ/2Story_Columns_Mat.obj using Guid(23e1595ceeac93a459695d3f1a23d056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19547b44d0592435c126d09a7b67a74c') in 0.083997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Buildings Pack - Jan 2019/OBJ/Building2_Small.obj
+  artifactKey: Guid(5319c14dbcfbe6b4ba338c67753d5d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buildings Pack - Jan 2019/OBJ/Building2_Small.obj using Guid(5319c14dbcfbe6b4ba338c67753d5d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b1e60ad1766be7f724ae88cb2def092') in 0.072494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Farm Buildings - Sept 2018/OBJ/TowerWindmill.obj
+  artifactKey: Guid(3deaa7674769d4e49980634a543b9516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Farm Buildings - Sept 2018/OBJ/TowerWindmill.obj using Guid(3deaa7674769d4e49980634a543b9516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '438868d8ffec42191dac9405829d693c') in 0.077669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Ultimate Textured Building Pack - Dec 2019/Models with Materials/OBJ/2Story_Double_Mat.obj
+  artifactKey: Guid(45ed9980abf624547ad4615b18e6f334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Models with Materials/OBJ/2Story_Double_Mat.obj using Guid(45ed9980abf624547ad4615b18e6f334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '509f3664f112c847a3b4db7babc9ccbc') in 0.079527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Ultimate Textured Building Pack - Dec 2019/Models with Materials/FBX/4Story_Wide_2Doors_Mat.fbx
+  artifactKey: Guid(0083dd16858c0c3438d6c46a52a866c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Models with Materials/FBX/4Story_Wide_2Doors_Mat.fbx using Guid(0083dd16858c0c3438d6c46a52a866c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5840c5d51918b32e4867af2bec3d8109') in 0.072157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Ultimate Textured Building Pack - Dec 2019/Models with Materials/OBJ/2Story_Stairs_Mat.obj
+  artifactKey: Guid(5dff550cf9c8ec9468ccee5ad51d525c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Models with Materials/OBJ/2Story_Stairs_Mat.obj using Guid(5dff550cf9c8ec9468ccee5ad51d525c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '849fdf9928732f04060c07d8e925913d') in 0.079874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Ultimate Textured Building Pack - Dec 2019/Models with Materials/FBX/2Story_Wide_Mat.fbx
+  artifactKey: Guid(b7ac19a9cfb894446b56a45c556a88e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Models with Materials/FBX/2Story_Wide_Mat.fbx using Guid(b7ac19a9cfb894446b56a45c556a88e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec65c309d0609babcda3a94876e931e0') in 0.074911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Buildings Pack - Jan 2019/FBX/Building1_Small.fbx
+  artifactKey: Guid(a2edf128cc9b6234496a8326ba671011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buildings Pack - Jan 2019/FBX/Building1_Small.fbx using Guid(a2edf128cc9b6234496a8326ba671011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75a519160380e3cb5e9627718cf93206') in 0.069949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Ultimate Textured Building Pack - Dec 2019/Models with Materials/OBJ/3Story_Slim_Mat.obj
+  artifactKey: Guid(55a28b035e077be45aa139f6fe00b32d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Models with Materials/OBJ/3Story_Slim_Mat.obj using Guid(55a28b035e077be45aa139f6fe00b32d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6de0a3612c6aaccad323e25a72d7276') in 0.081405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Ultimate Textured Building Pack - Dec 2019/Models with Materials/FBX/2Story_Mat.fbx
+  artifactKey: Guid(e36bb64f20a45da419c6c85ddc740e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Models with Materials/FBX/2Story_Mat.fbx using Guid(e36bb64f20a45da419c6c85ddc740e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '149f17f0e9ef0e6b1d9e91d2e93725e1') in 0.082188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Ultimate Textured Building Pack - Dec 2019/Models with Materials/FBX/2Story_Sign_Mat.fbx
+  artifactKey: Guid(bd730d48268bfe24f8ff3950eda0e8c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Models with Materials/FBX/2Story_Sign_Mat.fbx using Guid(bd730d48268bfe24f8ff3950eda0e8c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b8064ccc5298eecc805a8381c88a1ff') in 0.069767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Ultimate Textured Building Pack - Dec 2019/Models with Materials/OBJ/2Story_Sign_Mat.obj
+  artifactKey: Guid(3870808fc9b929b44a0a902423c625e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Models with Materials/OBJ/2Story_Sign_Mat.obj using Guid(3870808fc9b929b44a0a902423c625e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27560716cc1b579d53ebf5c2f52c672a') in 0.072493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Ultimate Textured Building Pack - Dec 2019/Models with Materials/OBJ/4Story_Center_Mat.obj
+  artifactKey: Guid(1bc0638cb2cbdca478f917e5b37004b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Models with Materials/OBJ/4Story_Center_Mat.obj using Guid(1bc0638cb2cbdca478f917e5b37004b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0701be7a3539348d95abf5abc4384d6') in 0.085797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Ultimate Textured Building Pack - Dec 2019/Models with Materials/FBX/4Story_Mat.fbx
+  artifactKey: Guid(5f2abcfa5c4852a459a323a0cdfd5d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Models with Materials/FBX/4Story_Mat.fbx using Guid(5f2abcfa5c4852a459a323a0cdfd5d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '318a7c07c7eaf66bb8053126bddbadb9') in 0.066800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Ultimate Textured Building Pack - Dec 2019/Models with Materials/FBX/2Story_Balcony_Mat.fbx
+  artifactKey: Guid(73e5228e370a9d94489f3b468e97ff4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Models with Materials/FBX/2Story_Balcony_Mat.fbx using Guid(73e5228e370a9d94489f3b468e97ff4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5513b4abbb18f4ac3add2d045621898') in 0.085484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Ultimate Textured Building Pack - Dec 2019/Models with Materials/FBX/2Story_Double_Mat.fbx
+  artifactKey: Guid(ed7f946e8a3752548a6e60086a5a1a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Models with Materials/FBX/2Story_Double_Mat.fbx using Guid(ed7f946e8a3752548a6e60086a5a1a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e66276ea3960c56e3d3cde93bb5b0757') in 0.068695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Ultimate Textured Building Pack - Dec 2019/Models with Materials/FBX/2Story_Wide_2Doors_Mat.fbx
+  artifactKey: Guid(c9420e41811bd0640b52e02638769827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Textured Building Pack - Dec 2019/Models with Materials/FBX/2Story_Wide_2Doors_Mat.fbx using Guid(c9420e41811bd0640b52e02638769827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5437873b68011a6de8151412d624cc0') in 0.065581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.853389 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(9df06c48b3a5f4647a04a9c7d3c7b267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(9df06c48b3a5f4647a04a9c7d3c7b267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc65c4898d8ee08bdec53926a2452f70') in 0.005647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 59.601948 seconds.
+  path: Assets/Stylized Brick Materials/Materials/M_Brick01_Variant01.mat
+  artifactKey: Guid(339957fc03bb06d498d1ba479112ba48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Brick Materials/Materials/M_Brick01_Variant01.mat using Guid(339957fc03bb06d498d1ba479112ba48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '697a23570f8b6fc736fecb8aa01b0850') in 0.075791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Stylized Brick Materials/Materials/M_Brick03_Variant07.mat
+  artifactKey: Guid(7049939c684dd914b9691852e2a02ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Brick Materials/Materials/M_Brick03_Variant07.mat using Guid(7049939c684dd914b9691852e2a02ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '147e7669458dc3057ee4a4bd84387301') in 0.041924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Stylized Brick Materials/Materials/M_Brick01_Variant03.mat
+  artifactKey: Guid(6600ba38b93d2de479d99d54f753b729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Brick Materials/Materials/M_Brick01_Variant03.mat using Guid(6600ba38b93d2de479d99d54f753b729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6ac8703a68d8e863dfb9516f8310f24') in 0.028173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Stylized Brick Materials/Materials/M_Stone02_Variant02.mat
+  artifactKey: Guid(0558ea61733f64941a37cd788cdb9a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Brick Materials/Materials/M_Stone02_Variant02.mat using Guid(0558ea61733f64941a37cd788cdb9a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed56308246e3ffc36d9059ba2d82e669') in 0.026225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Stylized Brick Materials/Materials/M_Brick04_Variant03.mat
+  artifactKey: Guid(42d337526ee1691458e8b1a5b9a315e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Brick Materials/Materials/M_Brick04_Variant03.mat using Guid(42d337526ee1691458e8b1a5b9a315e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34ea08e89bac36e0a93f3197ec3c00c7') in 0.027259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Stylized Brick Materials/Materials/M_Stone02_Variant04.mat
+  artifactKey: Guid(05ccc52f27c3f9944a5da9cb09d31343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Brick Materials/Materials/M_Stone02_Variant04.mat using Guid(05ccc52f27c3f9944a5da9cb09d31343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60dd0c43262677ef7fdfcb5e7a06f010') in 0.026819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Stylized Brick Materials/Materials/M_Brick03_Variant04.mat
+  artifactKey: Guid(aec53cb1e4ef93a4e80eb2b7b420217c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Brick Materials/Materials/M_Brick03_Variant04.mat using Guid(aec53cb1e4ef93a4e80eb2b7b420217c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd656ae2b33b62b46f53d8d21dcdbf013') in 0.026080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Stylized Brick Materials/Materials/M_Brick04_Variant02.mat
+  artifactKey: Guid(9667b2f081553994bb12948f00bb2402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Brick Materials/Materials/M_Brick04_Variant02.mat using Guid(9667b2f081553994bb12948f00bb2402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a5265ccab816703897e460f4c8a5d1e') in 0.029508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Stylized Brick Materials/Materials/M_Brick03_Variant01.mat
+  artifactKey: Guid(c6f0efbea3f82864486fc78ddd1e58c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Brick Materials/Materials/M_Brick03_Variant01.mat using Guid(c6f0efbea3f82864486fc78ddd1e58c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e380e0ee0358619807126e572a3c74f3') in 0.026788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Stylized Brick Materials/Materials/M_Stone02_Variant05.mat
+  artifactKey: Guid(5d45d5b3a7d06434691080051f06e67f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Brick Materials/Materials/M_Stone02_Variant05.mat using Guid(5d45d5b3a7d06434691080051f06e67f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9356d5902b032acfa9e37b00937e9bef') in 0.026455 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000030 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpatialMappingWireframe.mat
-  artifactKey: Guid(9875a245ac49007498213638a307faa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpatialMappingWireframe.mat using Guid(9875a245ac49007498213638a307faa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afdf7f47fcb04e760758a990d182361f') in 0.028642 seconds 
+  path: Assets/Stylized Brick Materials/Materials/M_Stone02_Variant01.mat
+  artifactKey: Guid(c4151470e2c373e4088e04228aa54211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Brick Materials/Materials/M_Stone02_Variant01.mat using Guid(c4151470e2c373e4088e04228aa54211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df9741b8b881d76c600c0a8e4f84d8ec') in 0.029431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Stylized Brick Materials/Materials/M_Stone02_Variant03.mat
+  artifactKey: Guid(2c1dda915acb33641b57cf966bff604b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Brick Materials/Materials/M_Stone02_Variant03.mat using Guid(2c1dda915acb33641b57cf966bff604b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbd9ef9807570953fbfb7d7708f7469b') in 0.029698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Stylized Brick Materials/Materials/M_Brick03_Variant03.mat
+  artifactKey: Guid(bf48e5838a3489f4da8803ab6cd83f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Brick Materials/Materials/M_Brick03_Variant03.mat using Guid(bf48e5838a3489f4da8803ab6cd83f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da1e01ebec3586a0ad6b7e8aae6f5da7') in 0.027923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Stylized Brick Materials/Materials/M_Brick04_Variant01.mat
+  artifactKey: Guid(1aecaff51b2ae244c9826b86c7f9d6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Brick Materials/Materials/M_Brick04_Variant01.mat using Guid(1aecaff51b2ae244c9826b86c7f9d6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7f01c9e2c02b3d0b0bd0e527a6a2529') in 0.027802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Stylized Brick Materials/Materials/M_Brick03_Variant06.mat
+  artifactKey: Guid(80fb7b98fd841464da8bf206b36b8103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Brick Materials/Materials/M_Brick03_Variant06.mat using Guid(80fb7b98fd841464da8bf206b36b8103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6998d4dcf80cd969b71f1c3231260f03') in 0.025993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Stylized Brick Materials/Materials/M_Brick03_Variant02.mat
+  artifactKey: Guid(52c2c3fe231a6e745a53512ce32b14ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Brick Materials/Materials/M_Brick03_Variant02.mat using Guid(52c2c3fe231a6e745a53512ce32b14ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d5064b24d90a8c2580d48b96d3fee76') in 0.026621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Stylized Brick Materials/Materials/M_Brick01_Variant04.mat
+  artifactKey: Guid(6f6284b83c54d0246b535da6842d568c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Brick Materials/Materials/M_Brick01_Variant04.mat using Guid(6f6284b83c54d0246b535da6842d568c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72b2a0891f4910db369a11c1f97483af') in 0.029497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Stylized Brick Materials/Materials/M_Brick03_Variant05.mat
+  artifactKey: Guid(dfdd3d48ec665b444b671788937386ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Brick Materials/Materials/M_Brick03_Variant05.mat using Guid(dfdd3d48ec665b444b671788937386ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1123bf832a01a9ec764f4f42f8985eff') in 0.024555 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

@@ -3,7 +3,107 @@ guid: 357247d0a551ed941aac876974f1ae7a
 ModelImporter:
   serializedVersion: 22103
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass
+    second: {fileID: 2100000, guid: 2bc4c5dcaf1be614ebbed0cf66141ce9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metallic
+    second: {fileID: 2100000, guid: f50eca1326c907541a69aaff2bbbf959, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aluminium
+    second: {fileID: 2100000, guid: 5390a5d0ca7b76b468fba39792edc273, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bakelite
+    second: {fileID: 2100000, guid: 1eed44e5e0fa8e64bb03e1e159d03f74, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: black
+    second: {fileID: 2100000, guid: 35ccc9fb4ac82a94296267516beaf136, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: grooves
+    second: {fileID: 2100000, guid: 63483f823684a7746bf1449ea89b1e23, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: headlight glass
+    second: {fileID: 2100000, guid: a4d179039628eeb4dafb021d601a4b20, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: interior
+    second: {fileID: 2100000, guid: 0b7588028b3ec0b498f6a592688a8d33, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material
+    second: {fileID: 2100000, guid: 2aa229163cac3e745bff43ffc308fd64, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mirror
+    second: {fileID: 2100000, guid: 0f80e928b7efc3040a0334e44577ca6f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: paint2
+    second: {fileID: 2100000, guid: 1f7bf944539ae3644a8b5bb35f18ef9b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: planks
+    second: {fileID: 2100000, guid: 9fb1a1fed6d20864f81417067038e6d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: seats
+    second: {fileID: 2100000, guid: d7d09b8f988906140aa8deb422ae6c25, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tail light
+    second: {fileID: 2100000, guid: 9fed8f85067e64f4f91262b2c4387e31, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: textureford
+    second: {fileID: 2100000, guid: 878ff155cdba06b45b87c18377e4358b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tyre texture bake
+    second: {fileID: 2100000, guid: b8e46c11392ccd44ba5eecb956b0f169, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: v8wheel
+    second: {fileID: 2100000, guid: 160f617d2d584554b9e7faa7a87e01a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: van_paint_2
+    second: {fileID: 2100000, guid: 5b1002ed5fa9d5e4394a4fa7df1a4e2c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: white
+    second: {fileID: 2100000, guid: 48d999eca4882fe41b11041d76d61f5a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wood
+    second: {fileID: 2100000, guid: c6c176fa841f36a44af9bc3d9a2550a4, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
